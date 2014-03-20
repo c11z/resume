@@ -1,7 +1,7 @@
 # Cory Dominguez
 
 ## Coordinates
-Software developer residing in Mountain View CA. Check out my [github.com/coryosaurus](http://github.com/corydominguez) or [linkedin.com/in/corydominguez](http://linkedin.com/in/corydominguez) for more detail.
+Software developer residing in Mountain View CA. Check out my [github.com/coryasaurus](http://github.com/corydominguez) or [linkedin.com/in/corydominguez](http://linkedin.com/in/corydominguez) for more detail.
 
 If you would like to contact me please try the following methods _(ordered by efficiency)_:
 
@@ -54,24 +54,24 @@ Transferred with acquisition of Lexity by Yahoo, integrated Yahoo Store, as a re
 
 * <http://pacwave.com> is a ecommerce website using the Magento platform.
 * Helped redesign in early 2012.
-* Scripted the automation of product creation and inventory update using a custom magento api library resulting in a 30x increase in efficiency. A piece of it can be seen at <http://github.com/coryosaurus/pacwave-importer>
+* Scripted the automation of product creation and inventory update using a custom magento api library resulting in a 30x increase in efficiency. A piece of it can be seen at <http://github.com/coryasaurus/pacwave-importer>
 
 ## Projects
 
 ### Android
 Completed Codepath Android development class at Yahoo. You can see my progression in the following repositories:
 
-* <http://github.com/coryosaurus/tiptastic>
-* <http://github.com/coryosaurus/tifftastic>
-* <http://github.com/coryosaurus/tweetastic>
-* <http://github.com/coryosaurus/sqrl-android>
-* <http://github.com/coryosaurus/sqrl-server>
+* <http://github.com/coryasaurus/tiptastic>
+* <http://github.com/coryasaurus/tifftastic>
+* <http://github.com/coryasaurus/tweetastic>
+* <http://github.com/coryasaurus/sqrl-android>
+* <http://github.com/coryasaurus/sqrl-server>
 
 ### Coursera Functional Programing in Scala
-(incomplete) I have documented the work I did in this repository: <http://github.com/coryosaurus/fp-scala>
+(incomplete) I have documented the work I did in this repository: <http://github.com/coryasaurus/fp-scala>
 
 ### Cal Query
-My first web application, it generates HTML invoices from google calendar data using python, webapp2 and google app engine. <http://github.com/coryosaurus/calquery>
+My first web application, it generates HTML invoices from google calendar data using python, webapp2 and google app engine. <http://github.com/coryasaurus/calquery>
 
 ## Education
 

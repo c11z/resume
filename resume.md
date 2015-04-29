@@ -1,78 +1,42 @@
-# Cory Dominguez
+## Cory Dominguez
+[ [github](https://github.com/c11z) ] -- [ [linkedin](https://linkedin.com/in/corydominguez) ] -- [ corydominguez@gmail.com ]
 
-## Coordinates
-Software developer residing in Mountain View CA. Check out my [github.com/coryasaurus](http://github.com/corydominguez) or [linkedin.com/in/corydominguez](http://linkedin.com/in/corydominguez) for more detail.
+### Experience 
+**Recurse Center, Spring 1 Alumnus**
+Manhattan, New York --- _(February 2015 - May 2015)_
 
-If you would like to contact me please try the following methods _(ordered by efficiency)_:
+The Recurse Center is a self directed educational retreat for software developers. While there I built ComicGator; an app for reading and discovering webcomics. 
 
-* corydominguez@gmail.com
-* (347) 725-0527
-* enigma machine
+* [cdb](https://github.com/comicgator/cdb) -- postgreSQL comic database. Version controlled and organized with Sqitch.
+* [lurker](https://github.com/comicgator/lurker) -- Custom Scala scraper for webcomic sites. 
+* [maestro](https://github.com/comicgator/maestro) -- Spray/Scala RESTful api wrapping cdb. 
 
-## Summary of Qualifications
+**Yahoo, IC 2 Software Engineer**
+Sunnyvale, California --- _(August 2013 - November 2014)_
 
-* 2 years industry experience.
-* Experience designing, implementing and scaling mySQL databases.
-* Excellent scripting skills and general commandline-fu.
-* Collaborated on large projects using Version Control.
-* Side projects in Android and Play/Scala.
+Yahoo acquired Lexity in August of 2013 and became [Yahoo Commerce Central](https://commercecentral.yahoo.com/). While there I ...
 
-## Technical Profile
-_(ordered by competency)_
+* Helped grow the user base 10x.
+* Moved from AWS to Yahoo infrastructure and deployed across 2 co-locations.
+* Scaled Channelmanager from 3 to 24 machines.
+* Clustered the Merchant Database using Percona.
 
-**Programing Languages:**
-Python, Java, Groovy, Bash, Scala, HTML, CSS
+**Lexity, Channel Commando**
+Mountain View, California --- _(January 2013 - August 2013)_
 
-**Frameworks / Libraries:**
-Grails, Android, Play, Google App Engine, Flask, Less, Twitter Bootstrap, Yeoman
+Lexity was a startup that built applications for small and medium sized ecommerce merchants. Our key products included: algorithmic bidding for comparison shopping advertising, retargeting, and a sophisticated roi tracking system. I was the...
 
-**API's / Protocols:**
-REST, SOAP, XML-RPC, Twitter, Magento, Shopify, Bigcommerce
+* Largest contributer and maintainer of the Channelmanager component.
+* Channelmanager extracted product and order information from platforms on the behalf of merchants and normalized that data for use by the apps and roi tracker.
+* Integrated with 12 ecommerce platforms; including Shopify, Bigcommerce, Magento, Volusion, Ebay and Etsy.
 
-**Databases:**
-MySQL, SQLite, SequelPro
+### Skills
 
-**Tools:**
-Git, SSH, Regular Expressions, OpenSSL, Sublime Text, IntelliJ IDEA,vim
+* Real stuff with Python, Scala, Java.
+* Commandlinefu with Python, *nix and vagrant.
+* Creation and consumption of api's; RESTful and otherwise.
+* Designed and scaled RDBMS (mySQL and postgreSQL).
 
-## Work History
-
-### Yahoo
-**Channel Commando - Software Engineer Level IC 2** _August 2013 - present_
-
-Transferred with acquisition of Lexity by Yahoo, integrated Yahoo Store, as a result participated in scaling the system to support the 10x increase in users.
-
-### Lexity
-**Channel Commando** _January 2013 - August 2013_
-
-* Owner and maintainer of the Channelmanager component, a groovy on grails project with mySQL which extracts product and order information from several ecommerce platforms including Shopify, Bigcommerce, Magento, Volusion, Etsy, eBay, Prestashop...
-* Refactored and improved quality and speed of every major platform
-* Increased the amount of platforms supported by 30%.
-
-### Pacific Wave Board Shop
-**Chief Button Sorter** _August 2011 - December 2012_
-
-* <http://pacwave.com> is a ecommerce website using the Magento platform.
-* Helped redesign in early 2012.
-* Scripted the automation of product creation and inventory update using a custom magento api library resulting in a 30x increase in efficiency. A piece of it can be seen at <http://github.com/coryasaurus/pacwave-importer>
-
-## Projects
-
-### Android
-Completed Codepath Android development class at Yahoo. You can see my progression in the following repositories:
-
-* <http://github.com/coryasaurus/tiptastic>
-* <http://github.com/coryasaurus/tifftastic>
-* <http://github.com/coryasaurus/tweetastic>
-* <http://github.com/coryasaurus/sqrl-android>
-* <http://github.com/coryasaurus/sqrl-server>
-
-### Coursera Functional Programing in Scala
-(incomplete) I have documented the work I did in this repository: <http://github.com/coryasaurus/fp-scala>
-
-### Cal Query
-My first web application, it generates HTML invoices from google calendar data using python, webapp2 and google app engine. <http://github.com/coryasaurus/calquery>
-
-## Education
+### Education
 
 Bachelor of Science in Applied Physics _(incomplete)_ - University of California, Santa Cruz

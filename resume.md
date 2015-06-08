@@ -6,7 +6,7 @@
 #### Spring 1 Alumnus @ the Recurse Center
 Manhattan, New York -- 2015-02 -> 2015-05
 
-The Recurse Center is a self directed educational retreat for software developers. While there I primarily worked on ComicGator ([comicgator.com](http://comicgator.com)); an app for reading and discovering webcomics. 
+The Recurse Center is a self directed educational retreat for software developers. While there I worked on ComicGator ([comicgator.com](http://comicgator.com)); an app for reading and discovering webcomics. 
 
 * [cdb](https://github.com/comicgator/cdb) -- PostgreSQL comic database. Version controlled and organized with Sqitch.
 * [lurker](https://github.com/comicgator/lurker) -- Custom Scala scraper for webcomic sites. 
@@ -15,25 +15,27 @@ The Recurse Center is a self directed educational retreat for software developer
 #### Software Engineer @ Yahoo
 Sunnyvale, California -- 2013-08 -> 2014-11
 
-Lexity was acquired by Yahoo in August of 2013 and became Yahoo Commerce Central ([commercecentral.yahoo.com](https://commercecentral.yahoo.com/)). While there I ...
+Lexity was acquired by Yahoo in August of 2013 and became Yahoo Commerce Central ([commercecentral.yahoo.com](https://commercecentral.yahoo.com/)).
 
-* Helped grow the user base 10x.
-* Moved from AWS to Yahoo infrastructure and deployed across 2 co-locations.
+* I migrated Channelmanager from AWS to Yahoo infrastructure and deployed across 2 co-locations.
 * Scaled Channelmanager from 3 to 24 machines.
 * Clustered the Merchant Database using Percona.
+* Created data pipeline from MySQL to HDFS.
 
 #### Channel Commando @ Lexity
 Mountain View, California -- 2013-01 -> 2014-08
 
-Lexity was a startup that built applications for small and medium sized ecommerce merchants. Our key products included: algorithmic bidding for comparison shopping advertising, retargeting, and a sophisticated roi tracking system. I was the...
+Lexity was a startup that built applications for small and medium sized ecommerce merchants. Our key products included: algorithmic bidding for comparison shopping sites, retargeting, and a sophisticated roi tracking system.
 
-* Largest contributer and maintainer of the Channelmanager component.
-* Channelmanager extracted and normalized product and order information from popular ecommerce platforms.
-* Integrated with 12 ecommerce platforms; including Shopify, Bigcommerce, Magento, Volusion, Ebay and Etsy.
+I was the largest contributer and maintainer of Channelmanager, a webapp that extracted and normalized product and order information from ecommerce platforms.
+
+* Integrated and consumed dozens of ancient and terrible ecommerce APIs.
+* Implemented an extremely defensive parsing and normalization abstraction.
+* Experienced many flavors of APIs; some good, many horrible. Each required a novel solution to query efficiently.
 
 ### Skills
 
 * Real stuff with Python, Scala, and Java.
 * Commandlinefu with Python, *nix, and vagrant.
-* Creation and consumption of api's; RESTful and otherwise.
+* Creation and consumption of api's; RESTful, RPC, SOAP.
 * Designed and scaled RDBMS (MySQL and PostgreSQL).

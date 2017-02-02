@@ -1,50 +1,36 @@
-###Cory Dominguez 
-[ \# (347) 725-0527 ] -- [ corydominguez@gmail.com ] -- [ [github.c11z.com](http://github.c11z.com) ] -- [ [linkedin.c11z.com](http://linkedin.c11z.com) ] 
+### Cory Dominguez 
+347-725-0527 | me@c11z.com | [github.c11z.com](http://github.c11z.com) | [linkedin.c11z.com](http://linkedin.c11z.com)
 
-####Experience
+#### Experience
 **Software Engineer @ Chartboost**
 
 *San Francisco, California -- 2015-06 to present*
 
-Chartboost ([chartboost.com](https://chartboost.com/)) is a company that makes advertising tools for mobile game developers. I was part of the data team that delivered analytics to our customers through our dashboard and web APIs.
-
-* Built pipelines and aggregated data for ad network analytics.
-* Rewrote existing analytics API components.
-* Developed a queued API design that allows safe and efficient external access to a Redshift database.
+Chartboost ([chartboost.com](https://chartboost.com)) runs an ad network for mobile games. I was a member of the data team specializing in pipelines and web APIs.
 
 **Spring 1 Alumnus @ the Recurse Center**
 
-*Manhattan, New York -- 2015-02 to 2015-05*
+*Manhattan, New York -- 2015-02 to present*
 
-The Recurse Center is a self-directed educational retreat for software developers. While there I worked on Comic Gator ([comicgator.com](http://comicgator.com)); a service that aggregates webcomics and allows users to generate RSS feeds.
+The Recurse Center is a self-directed educational retreat for software developers. While there I started [Comic Gator](https://comicgator.com); a project that aggregates webcomics and allows users to generate RSS feeds. Notable features:
 
-* The Comic Database is PostgreSQL, organized by sqitch, and uses triggers and JSON serialization.
-* The API is Scala/Play and uses Akka actors to run web crawlers periodically against webcomics.
-* The interface uses a passwordless authentication system of my own design.
+* [CDB](https://github.com/comicgator/cdb): the comic database designed in PostgreSQL and organized by sqitch.
+* [Maestro](https://github.com/comicgator/maestro): a web API implemented in Scala/Play.
+* [Lurker](https://github.com/comicgator/maestro/blob/master/app/services/Lurker.scala): a web crawler.
+* [Line Cook](https://github.com/comicgator/maestro/blob/master/app/services/LineCook.scala): an RSS feed pipeline.
+* [Lunch Time](https://github.com/comicgator/lunchtime): a web app for configuring feeds.
 
-**Software Engineer @ Yahoo**
+**Software Engineer @ Lexity --> Yahoo**
 
-*Sunnyvale, California -- 2013-08 to 2014-11*
+*Silicon Valley, California -- 2013-01 to 2014-08*
 
-Lexity was acquired by Yahoo in August of 2013 and became Yahoo Commerce Central ([commercecentral.yahoo.com](https://commercecentral.yahoo.com/)).
+Lexity was a startup that built applications for small and medium-sized e-commerce merchants. Our products included: algorithmic bidding for comparison shopping sites, retargeting, and a sophisticated ROI tracking system. 
 
-* Migrated Channelmanager from AWS to Yahoo infrastructure and deployed across 2 co-locations.
-* Scaled Channelmanager from 3 to 24 machines.
-* Clustered the Merchant Database using Percona.
-* Created data pipeline from MySQL to HDFS.
+We were acquired by Yahoo in August of 2013 and became Yahoo Commerce Central ([commercecentral.yahoo.com](https://commercecentral.yahoo.com/)). I owned the merchant data extraction and normalization service.
 
-**Software Engineer @ Lexity**
-
-*Mountain View, California -- 2013-01 to 2014-08*
-
-Lexity was a startup that built applications for small and medium-sized e-commerce merchants. Our key products included: algorithmic bidding for comparison shopping sites, retargeting, and a sophisticated ROI tracking system.
-
-* Developed process for extracting merchant data from many e-commerce APIs.
-* Implemented defensive parsing and normalization classes.
-
-####Skills
+#### Skills
 * Real stuff with Python and Scala.
-* Commandlinefu with Python, *nix, and vagrant.
-* Creation and consumption of web APIs; RESTful, RPC, SOAP.
+* Commandlinefu with Python, *nix, and Docker.
+* Creation and consumption of web APIs with REST, RPC, and SOAP.
 * Data pipelines with Jenkins and Airflow.
-* Database-friendly (MySQL, PostgreSQL, Mongo, Redshift, Hive).
+* Database-friendly with MySQL, PostgreSQL, Mongo, Redshift, Hive, and Elasticsearch.

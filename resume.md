@@ -1,16 +1,5 @@
 # Cory Dominguez 
 347-725-0527 | me@c11z.com | [github.c11z.com](http://github.c11z.com) | [linkedin.c11z.com](http://linkedin.c11z.com)
-
-**[ComicGator](https://comicgator.com)** *2014-11 to present*
-
-Open source webcomic aggregator and RSS feed generator. Notable features:
-
-* [CDB](https://github.com/comicgator/cdb): the comic database designed in PostgreSQL and organized by sqitch.
-* [Maestro](https://github.com/comicgator/maestro): a web API implemented in Scala/Play.
-* [Lurker](https://github.com/comicgator/maestro/blob/master/app/services/Lurker.scala): a web crawler.
-* [Line Cook](https://github.com/comicgator/maestro/blob/master/app/services/LineCook.scala): an RSS feed pipeline.
-* [Lunch Time](https://github.com/comicgator/lunchtime): a web app for configuring feeds.
-
 ## Experience
 **Software Engineer, [Chartboost](https://chartboost.com)** *San Francisco, CA - 2015-06 to present*
 
@@ -27,6 +16,18 @@ Acquired Lexity and rebranded Comerce Central.
 **Software Engineer, Lexity** *Mountain View, CA - 2013-01 to 2013-08*
 
 Startup that built applications for e-commerce merchants. I contributed to the merchant data extraction and normalization service.
+
+## Projects
+**[ComicGator](https://comicgator.com)** *2014-11 to present*
+
+Open source webcomic aggregator and RSS feed generator. Notable features:
+
+* [CDB](https://github.com/comicgator/cdb): the comic database designed in PostgreSQL and organized by sqitch.
+* [Maestro](https://github.com/comicgator/maestro): a web API implemented in Scala/Play.
+* [Lurker](https://github.com/comicgator/maestro/blob/master/app/services/Lurker.scala): a web crawler.
+* [Line Cook](https://github.com/comicgator/maestro/blob/master/app/services/LineCook.scala): an RSS feed pipeline.
+* [Lunch Time](https://github.com/comicgator/lunchtime): a web app for configuring feeds.
+
 
 ## Skills
 * Real stuff with Python and Scala.

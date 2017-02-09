@@ -35,13 +35,15 @@ Open source webcomic aggregator and RSS feed generator. Notable features:
 * [Lunch Time](https://github.com/comicgator/lunchtime): a React web app for configuring feeds.
 
 ## Skills
-* Expertise in web API consumption, design and development specifically in REST, RPC, and SOAP.
-* Mastery of Python, Linux, Git, and Docker for development tools and scripting.
-* Advanced knowledge of Scala.
-* Extensive production use of MySQL, PostgreSQL, Redshift, Mongo, Hive, and Elasticsearch databases.
-* Intermediate experience with data pipelines using Airflow.
+**Design:** Proficient in web APIs with REST and RPC. Knowledgeable in data pipelines with Jenkins and Airflow.
+
+**Languages:** Proficient in Scala and Python. Basic in Javascript.
+
+**Tools:** Proficient in Linux, Git, and Docker. Knowledgeable in AWS.
+
+**Databases:** Proficient in MySQL, PostgreSQL, and Redshift. Knowledgeable in Mongo, Hive, and Elasticsearch.
 
 ## Education
-**Physics, UC Santa Cruz** *Santa Cruz, CA - 2009 to 2012*
+**University of California, Santa Cruz** 2009
 
-Dropped out in 2012.
+Major: Applied Physics (Incomplete)

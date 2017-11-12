@@ -4,12 +4,12 @@
 ## Experience
 **Software Engineer, [Chartboost](https://chartboost.com)** *San Francisco, CA - 2015-06 to present*
 
-Advertising technology company for mobile games. I am a member of the data team specializing in pipelines and web APIs. My responsibilities include:
+Advertising technology company for mobile games. My responsibilities include:
 
 * Data model design.
-* Configuring Airflow pipelines.
+* Building high performance web APIs in Scala.
 * Utilizing MySQL, Redshift, Hive and Elasticsearch databases.
-* Building web APIs in Scala using the Play framework.
+* Operations with AWS, Spinnaker and Consul.
 
 **Alumnus, [Recurse Center](https://recurse.com)** *Manhattan, NY - 2015-02 to 2015-05*
 
@@ -28,20 +28,19 @@ A startup that built applications for e-commerce merchants. I contributed to the
 
 Open source webcomic aggregator and RSS feed generator. Notable features:
 
-* [CDB](https://github.com/comicgator/cdb): the comic database designed in PostgreSQL and organized by sqitch.
-* [Maestro](https://github.com/comicgator/maestro): a web API implemented in Scala/Play.
-* [Lurker](https://github.com/comicgator/maestro/blob/master/app/services/Lurker.scala): a web crawler.
-* [Line Cook](https://github.com/comicgator/maestro/blob/master/app/services/LineCook.scala): an RSS feed pipeline.
-* [Lunch Time](https://github.com/comicgator/lunchtime): a React web app for configuring feeds.
+* [CDB](https://github.com/comicgator/comicgator/tree/master/cdb): the comic database designed in PostgreSQL and organized by sqitch.
+* [Axon](https://github.com/comicgator/comicgator/tree/master/axon): a web API implemented in Scala/Play.
+* [Lurker](https://github.com/comicgator/comicgator/tree/master/lurker): a web crawler and RSS feed pipeline with Scala.
+* [Morel](https://github.com/comicgator/comicgator/tree/master/morel): a web app for configuring feeds written with Elm.
 
 ## Skills
 **Design:** Proficient in web APIs with REST and RPC. Knowledgeable in data pipelines with Jenkins and Airflow.
 
-**Languages:** Proficient in Scala and Python. Basic in Javascript.
+**Languages:** Proficient in Scala and Python. Basic in Javascript and Elm.
 
-**Tools:** Proficient in Linux, Git, and Docker. Knowledgeable in AWS.
+**Tools:** Proficient in Linux, Git, Docker and AWS. Knowledgeable in Kubernetes and Google Cloud.
 
-**Databases:** Proficient in MySQL, PostgreSQL, and Redshift. Knowledgeable in Mongo, Hive, and Elasticsearch.
+**Databases:** Proficient in MySQL, PostgreSQL, and Redshift. Knowledgeable in Redis, Mongo, Hive, and Elasticsearch.
 
 ## Education
 **University of California, Santa Cruz** 2009

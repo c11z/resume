@@ -2,13 +2,21 @@
 347-725-0527 | me@c11z.com | [blog.c11z.com](http://blog.c11z.com) | [github.c11z.com](http://github.c11z.com) | [linkedin.c11z.com](http://linkedin.c11z.com)
 
 # Experience
+## Software Engineer, [imgix](https://www.imgix.com/) 
+
+*San Francisco, CA — 2018-03 to present* 
+Web API for powerful image processing.
+
+- Building web APIs in Python Tornado.
+- Data ETL with Airflow, BigQuery, MySQL, Mongo.
+- Testing framework for Varnish Cache.
 ## Software Engineer, [Chartboost](https://chartboost.com) 
 
-*San Francisco, CA — 2015-06 to present* 
-Advertising technology company for mobile games. My responsibilities include:
+*San Francisco, CA — 2015-06 to 2018-03* 
+Advertising technology company for mobile games.
 
 - Data model design.
-- Building high performance web APIs in Scala.
+- Building high performance web APIs in Scala Play Framework.
 - Utilizing MySQL, Redshift, Hive and Elasticsearch databases.
 - Operations with AWS, Spinnaker and Consul.
 ## Software Engineer, [Yahoo](https://commercecentral.yahoo.com/)
@@ -22,10 +30,15 @@ Yahoo acquired Lexity and rebranded Commerce Central. I focused on scaling the e
 A startup that built applications for e-commerce merchants. I contributed to the merchant data extraction and normalization service. Primary datastore was MySQL, and the service ran on Groovy on Grails.
 
 # Projects
-## [Friday](https://github.com/c11z/friday)
+## [or, The Whale](https://github.com/c11z/or-the-whale)
+
+*2018-10 to present* 
+NLP comparison between the original and an abridged version of the novel Moby Dick; or, The Whale. Using Python 3 and spaCy.
+
+## [python.mk](https://github.com/c11z/python-mk)
 
 *2018-01 to present* 
-A CLI for programatic access to my work journal in Dropbox Paper. It provides backup services and aggregates statistics for metrics that I track.
+A Makefile that contains the seed of a python development environment.
 
 ## [ComicGator](https://github.com/c11z/comicgator)
 
@@ -35,10 +48,10 @@ Open source webcomic aggregator and RSS feed generator. Notable features:
 - [CDB](https://github.com/c11z/comicgator/tree/master/cdb): the comic database designed in PostgreSQL and organized by Sqitch.
 - [Lurker](https://github.com/c11z/comicgator/tree/master/lurker): a web crawler and RSS feed pipeline with Scala.
 # Skills
-- **Design:** Proficient in web APIs with REST and RPC. Knowledgeable in data pipelines with Jenkins, and Airflow.
+- **Design:** Proficient in web APIs, reverse proxies, .
 - **Languages:** Proficient in Scala and Python. Basic in Golang, and Javascript.
-- **Tools:** Proficient in Linux, Git, Spinnaker, Docker and AWS. Knowledgeable in Kubernetes, and Google Cloud.
-- **Databases:** Proficient in MySQL, PostgreSQL, and Redshift. Knowledgeable in Redis, Mongo, Hive, and Elasticsearch.
+- **Tools:** Proficient in Linux, Git, Spinnaker, Docker and AWS. Knowledgeable in Kubernetes, Nginx, HAProxy and Google Cloud.
+- **Data:** Proficient in MySQL, PostgreSQL, Mongo, BigQuery and Redshift. Knowledgeable Hive, Elasticsearch, and Airflow.
 # Education
 ## Alumnus, [Recurse Center](https://recurse.com)
 
@@ -49,4 +62,3 @@ A self-directed educational retreat for software developers. While there I start
 
 *Santa Cruz, CA — 2009* 
 Major: Applied Physics (Incomplete)
-

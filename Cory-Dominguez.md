@@ -19,7 +19,7 @@ Advertising technology company for mobile games.
 - Operations with AWS, Spinnaker and Consul.
 ## Software Engineer, [Yahoo](https://commercecentral.luminate.com/) — 2013-08 to 2014-11 
 
-Yahoo acquired Lexity and rebranded Commerce Central. I focused on scaling the extraction service. We also implemented a colocation of our infrastructure using Percona cluster to maintain consistency between MySQL masters.
+Yahoo acquired Lexity and re-branded Commerce Central. I focused on scaling the extraction service. We also implemented a collocation of our infrastructure using Percona cluster to maintain consistency between MySQL masters.
 
 ## Software Engineer, Lexity — 2013-01 to 2013-08 
 
@@ -28,13 +28,13 @@ A startup that built applications for e-commerce merchants. I contributed to the
 # Projects
 ## [or, The Whale](https://github.com/c11z/or-the-whale)
 
-NLP comparison between the original and an abridged version of the novel Moby Dick; or, The Whale. Using Python3 and spaCy.
+NLP comparison between the original and an abridged version of the novel Moby Dick; or, The Whale. Using Python 3 and spaCy.
 
 ## [python.mk](https://github.com/c11z/python-mk)
 
 A Makefile that contains the seed of a python development environment. Read the [announcement](https://medium.com/@c11z/python-mk-4dff070b4dce). 
 
-## [ComicGator](https://github.com/c11z/comicgator)
+## [Comic Gator](https://github.com/c11z/comicgator)
 
 Open source webcomic aggregator and RSS feed generator. Notable features:
 

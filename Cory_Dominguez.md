@@ -1,10 +1,12 @@
 # Cory Dominguez
 corydominguez@gmail.com // (347) 725-0527
+
 [ [linkedin.com/in/corydominguez](https://www.linkedin.com/in/corydominguez) ] [ [github.com/c11z](https://github.com/c11z) ] [ [medium.com/@c11z](https://medium.com/@c11z) ]
 
 ## Experience
 
 **Software Engineer,** [**imgix**](https://www.imgix.com/) **—** *March 2018 to December 2018*
+
 Transforms, optimizes, and intelligently caches your entire image library for fast websites and apps using simple and robust URL parameters.
 
 - Expanded the analytics web API in Python / Tornado / MySQL
@@ -13,6 +15,7 @@ Transforms, optimizes, and intelligently caches your entire image library for fa
 - Analysis and research with Google BigQuery
 
 **Software Engineer,** [**Chartboost**](https://chartboost.com) **—** *June 2015 to March 2018*
+
 Leading in-app monetization and programmatic advertising platform.
 
 - Extensive refactor of the analytics web API in Scala / Play Framework
@@ -20,12 +23,14 @@ Leading in-app monetization and programmatic advertising platform.
 - Pioneered continuous delivery of stateless services using Spinnaker
 
 **Software Engineer,** [**Yahoo**](https://commercecentral.luminate.com/) **—** *August 2013 to November 2014*
+
 Yahoo acquired Lexity and re-branded it as Commerce Central. 
 
 - Scaled the extraction service
 - Colocated MySQL with Percona Cluster
 
 **Software Engineer, Lexity —** *January 2013 to August 2013*
+
 Marketing tools for e-commerce merchants.
 
 - Started as an intern and accepted full time offer after 3 months
@@ -34,8 +39,10 @@ Marketing tools for e-commerce merchants.
 
 [**or, The Whale**](https://github.com/c11z/or-the-whale)
 NLP comparison between the original and an abridged version of the novel Moby Dick. Using Python and spaCy. Delivered as a talk at [Starcon 2019](https://starcon.io/talks/#or-the-whale). 
+
 [**python.mk**](https://github.com/c11z/python-mk)
 A Makefile that contains the seed of a python scripting development environment.
+
 [**Comic Gator**](https://github.com/c11z/comicgator)
 A webcomic aggregator and RSS feed generator.
 
@@ -48,6 +55,7 @@ A webcomic aggregator and RSS feed generator.
 
 **Alumnus,** [**Recurse Center**](https://recurse.com) **—** *February 2015 to May 2015*
 A self-directed educational retreat for software developers.
+
 **University of California, Santa Cruz —** *2009 to 2011* 
 Major: Applied Physics (Incomplete)
 

@@ -1,56 +1,53 @@
 # Cory Dominguez
-347-725-0527 | me@c11z.com | [blog.c11z.com](http://blog.c11z.com) | [github.c11z.com](http://github.c11z.com) | [linkedin.c11z.com](http://linkedin.c11z.com)
+corydominguez@gmail.com // (347) 725-0527
+[ [linkedin.com/in/corydominguez](https://www.linkedin.com/in/corydominguez) ] [ [github.com/c11z](https://github.com/c11z) ] [ [medium.com/@c11z](https://medium.com/@c11z) ]
 
-# Experience
-## Software Engineer, [imgix](https://www.imgix.com/) — 2018-03 to 2018-12
+## Experience
 
-Web API for powerful image processing.
+**Software Engineer,** [**imgix**](https://www.imgix.com/) **—** *March 2018 to December 2018*
+Transforms, optimizes, and intelligently caches your entire image library for fast websites and apps using simple and robust URL parameters.
 
-- Building web APIs in Python Tornado.
-- Data ETL with Airflow, BigQuery, MySQL, Mongo.
-- Testing framework for Varnish Cache.
-## Software Engineer, [Chartboost](https://chartboost.com) — 2015-06 to 2018-03
+- Expanded the analytics web API in Python / Tornado / MySQL
+- Pipelines in Airflow to sync state between third part services 
+- Validation and testing framework for Varnish Cache VCL configuration
+- Analysis and research with Google BigQuery
 
-Advertising technology company for mobile games.
+**Software Engineer,** [**Chartboost**](https://chartboost.com) **—** *June 2015 to March 2018*
+Leading in-app monetization and programmatic advertising platform.
 
-- Data model design.
-- Building high performance web APIs in Scala Play Framework.
-- Utilizing MySQL, Redshift, Hive and Elasticsearch databases.
-- Operations with AWS, Spinnaker and Consul.
-## Software Engineer, [Yahoo](https://commercecentral.luminate.com/) — 2013-08 to 2014-11 
+- Extensive refactor of the analytics web API in Scala / Play Framework
+- ETL in Airflow to aggregate and deliver data from Hive to MySQL / Redshift
+- Pioneered continuous delivery of stateless services using Spinnaker
 
-Yahoo acquired Lexity and re-branded Commerce Central. I focused on scaling the extraction service. We also implemented a collocation of our infrastructure using Percona cluster to maintain consistency between MySQL masters.
+**Software Engineer,** [**Yahoo**](https://commercecentral.luminate.com/) **—** *August 2013 to November 2014*
+Yahoo acquired Lexity and re-branded it as Commerce Central. 
 
-## Software Engineer, Lexity — 2013-01 to 2013-08 
+- Scaled the extraction service
+- Colocated MySQL with Percona Cluster
 
-Marketing tools for e-commerce merchants. I contributed to the merchant data extraction and normalization service. Primary datastore was MySQL, and the service ran on Groovy on Grails.
+**Software Engineer, Lexity —** *January 2013 to August 2013*
+Marketing tools for e-commerce merchants.
 
-# Projects
-## [or, The Whale](https://github.com/c11z/or-the-whale)
+- Started as an intern and accepted full time offer after 3 months
+- Owned the merchant data extraction and normalization service in Groovy on Grails / MySQL
+## Projects
 
-NLP comparison between the original and an abridged version of the novel Moby Dick; or, The Whale. Using Python and spaCy.
+[**or, The Whale**](https://github.com/c11z/or-the-whale)
+NLP comparison between the original and an abridged version of the novel Moby Dick. Using Python and spaCy. Delivered as a talk at [Starcon 2019](https://starcon.io/talks/#or-the-whale). 
+[**python.mk**](https://github.com/c11z/python-mk)
+A Makefile that contains the seed of a python scripting development environment.
+[**Comic Gator**](https://github.com/c11z/comicgator)
+A webcomic aggregator and RSS feed generator.
 
-## [python.mk](https://github.com/c11z/python-mk)
+## Skills
+- **Design:** Proficient in web APIs, and data ETL pipelines
+- **Languages:** Proficient in Python and Scala. Basic in Golang, and Javascript
+- **Tools:** Proficient in Linux, Git, Docker, Nomad, Google Cloud, and AWS. Knowledgeable in Spinnaker, Nginx, and Kubernetes
+- **Data:** Proficient in MySQL, PostgreSQL, MongoDB, BigQuery, and Redshift. Knowledgeable in Airflow, Hive, and Elasticsearch
+## Education
 
-A Makefile that contains the seed of a python development environment. Read the [announcement](https://medium.com/@c11z/python-mk-4dff070b4dce). 
-
-## [Comic Gator](https://github.com/c11z/comicgator)
-
-Open source webcomic aggregator and RSS feed generator. Notable features:
-
-- [CDB](https://github.com/c11z/comicgator/tree/master/cdb): the comic database designed in PostgreSQL and organized by Sqitch.
-- [Lurker](https://github.com/c11z/comicgator/tree/master/lurker): a web crawler and RSS feed pipeline with Scala.
-# Skills
-- **Design:** Proficient in web APIs, and data ETL pipelines.
-- **Languages:** Proficient in Python and Scala. Basic in Golang, and Javascript.
-- **Tools:** Proficient in Linux, Git, Docker, Nomad, Google Cloud, and AWS. Knowledgeable in Spinnaker, Nginx, and Kubernetes.
-- **Data:** Proficient in MySQL, PostgreSQL, MongoDB, BigQuery, and Redshift. Knowledgeable in Elasticsearch, and Airflow.
-# Education
-## Alumnus, [Recurse Center](https://recurse.com) — 2015-02 to 2015-05
-
-A self-directed educational retreat for software developers. While there I started my side project Comic Gator, powered up on Scala, and explored the beauty and quirkiness that is PostgreSQL.
-
-## University of California — 2009 to 2011 
-
+**Alumnus,** [**Recurse Center**](https://recurse.com) **—** *February 2015 to May 2015*
+A self-directed educational retreat for software developers.
+**University of California, Santa Cruz —** *2009 to 2011* 
 Major: Applied Physics (Incomplete)
 

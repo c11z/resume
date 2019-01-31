@@ -54,8 +54,10 @@ A webcomic aggregator and RSS feed generator.
 ## Education
 
 **Alumnus,** [**Recurse Center**](https://recurse.com) **—** *February 2015 to May 2015*
+
 A self-directed educational retreat for software developers.
 
 **University of California, Santa Cruz —** *2009 to 2011* 
+
 Major: Applied Physics (Incomplete)
 

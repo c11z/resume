@@ -1,5 +1,6 @@
 # Cory Dominguez
 corydominguez@gmail.com // (347) 725-0527
+
 [ [linkedin.com/in/corydominguez](https://www.linkedin.com/in/corydominguez) ] [ [github.com/c11z](https://github.com/c11z) ] [ [medium.com/@c11z](https://medium.com/@c11z) ]
 
 ## Experience

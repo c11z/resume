@@ -1,6 +1,5 @@
 # Cory Dominguez
 corydominguez@gmail.com // (347) 725-0527
-
 [ [linkedin.com/in/corydominguez](https://www.linkedin.com/in/corydominguez) ] [ [github.com/c11z](https://github.com/c11z) ] [ [medium.com/@c11z](https://medium.com/@c11z) ]
 
 ## Experience
@@ -8,11 +7,10 @@ corydominguez@gmail.com // (347) 725-0527
 **Senior Data Engineer,** [**Vacasa**](https://vacasa.com) **—** April *2019 to Present*
 Vacation rental property management.
 
-- Implement a multi environment Airflow deployment
-- Setup EMR cluster to leverage Hive, Presto and Spark tools in building models in our S3 data lake
-- Support 250 analysts and 27 engineering teams
+- Deploy a multi environment Airflow
+- Set up EMR cluster to leverage Hive, Presto and Spark tools
 - Launch custom data catalog
-- Host data engineering office hours to support mentoring
+- Support 250 analysts and 27 engineering teams
 
 **Software Engineer,** [**imgix**](https://www.imgix.com/) **—** *March 2018 to December 2018*
 Transforms, optimizes, and intelligently caches your entire image library for fast websites and apps using simple and robust URL parameters.
@@ -23,17 +21,17 @@ Transforms, optimizes, and intelligently caches your entire image library for fa
 - Analysis and research with Google BigQuery
 
 **Software Engineer,** [**Chartboost**](https://chartboost.com) **—** *June 2015 to March 2018*
-Leading in-app monetization and programmatic advertising platform.
+Mobile gaming in-app monetization and programmatic advertising platform.
 
 - Extensive refactor of the analytics web API in Scala / Play Framework
 - ETL in Airflow to aggregate and deliver data from Hive to MySQL / Redshift
+- Set up and internally promoted ELK stack for centralized logging
 - Pioneered continuous delivery of stateless services using Spinnaker
 
 **Software Engineer,** [**Yahoo**](https://commercecentral.luminate.com/) **—** *August 2013 to November 2014*
 Yahoo acquired Lexity and re-branded it as Commerce Central. 
 
 - Scaled the extraction service
-- Colocated MySQL with Percona Cluster
 
 **Software Engineer, Lexity —** *January 2013 to August 2013*
 Marketing tools for e-commerce merchants.
@@ -43,14 +41,14 @@ Marketing tools for e-commerce merchants.
 ## Projects
 
 [**or, The Whale**](https://github.com/c11z/or-the-whale)
-NLP comparison between the original and an abridged version of the novel Moby Dick. Using Python and spaCy. Delivered as a talk at [Starcon 2019](https://starcon.io/talks/#or-the-whale). 
+NLP comparison between the original and an abridged version of the novel Moby Dick. Using Python and spaCy. Delivered as a talk at [Starcon 2019](https://www.youtube.com/watch?v=tyvVk3GLmy8). 
 [**python.mk**](https://github.com/c11z/python-mk)
 A Makefile that contains the seed of a python scripting development environment.
 [**Comic Gator**](https://github.com/c11z/comicgator)
 A webcomic aggregator and RSS feed generator.
 
 ## Skills
-- **Design:** Proficient OLTP and OLAP data models, and data pipelines with Airflow.
+- **Design:** Proficient OLTP and OLAP data modeling, and pipelines with Airflow.
 - **Languages:** Proficient in Python and Scala.
 - **Tools:** Proficient in Linux, Git, Docker, Nomad, AWS and Google Cloud. Knowledgeable in Spinnaker, Nginx, and Kubernetes.
 - **Data:** Proficient in Airflow, MySQL, PostgreSQL, Redshift, Hive, and Presto. Knowledgeable in BigQuery, MongoDB, Spark, Kafka, and Elasticsearch.

@@ -39,6 +39,8 @@ Marketing tools for e-commerce merchants.
 
 - Started as an intern and accepted full time offer after 3 months
 - Owned the merchant data extraction and normalization service in Groovy on Grails / MySQL
+
+
 ## Projects
 
 [**or, The Whale**](https://github.com/c11z/or-the-whale)
@@ -48,11 +50,14 @@ A Makefile that contains the seed of a python scripting development environment.
 [**Comic Gator**](https://github.com/c11z/comicgator)
 A webcomic aggregator and RSS feed generator.
 
+
 ## Skills
 - **Design:** Proficient OLTP and OLAP data modeling, and pipelines with Airflow.
 - **Languages:** Proficient in Python and Scala.
 - **Tools:** Proficient in Linux, Git, Docker, Nomad, AWS and Google Cloud. Knowledgeable in Spinnaker, Nginx, and Kubernetes.
 - **Data:** Proficient in Airflow, MySQL, PostgreSQL, Redshift, Hive, and Presto. Knowledgeable in BigQuery, MongoDB, Spark, Kafka, and Elasticsearch.
+
+
 ## Education
 
 **Alumnus,** [**Recurse Center**](https://recurse.com) **—** *February 2015 to May 2015*

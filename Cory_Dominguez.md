@@ -49,12 +49,19 @@ Marketing tools for e-commerce merchants.
 ## Projects
 
 [**Data Lagoon**](https://github.com/c11z/data-lagoon)
+
 A curious collection of data for friends.
+
 [**or, The Whale**](https://github.com/c11z/or-the-whale)
+
 NLP comparison between the original and an abridged version of the novel Moby Dick. Using Python and spaCy. Delivered as a talk at [Starcon 2019](https://www.youtube.com/watch?v=tyvVk3GLmy8). 
+
 [**python.mk**](https://github.com/c11z/python-mk)
+
 A Makefile that contains the seed of a python scripting development environment.
+
 [**Comic Gator**](https://github.com/c11z/comicgator)
+
 A webcomic aggregator and RSS feed generator.
 
 

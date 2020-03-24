@@ -8,10 +8,10 @@ corydominguez@gmail.com // (347) 725-0527
 **Senior Data Engineer,** [**Vacasa**](https://vacasa.com) **—** April *2019 to Present*
 Vacation rental property management.
 
-- Deploy a multi environment Airflow
-- Set up EMR cluster to leverage Hive, Presto and Spark tools
-- Launch custom data catalog
-- Support 250 analysts and 27 engineering teams
+- Deployed a multi environment Airflow
+- Set up an EMR cluster to leverage Hive, Presto and Spark tools
+- Launched a custom data catalog
+- Supported 250 analysts and 27 engineering teams
 
 **Software Engineer,** [**imgix**](https://www.imgix.com/) **—** *March 2018 to December 2018*
 Transforms, optimizes, and intelligently caches your entire image library for fast websites and apps using simple and robust URL parameters.
@@ -43,6 +43,8 @@ Marketing tools for e-commerce merchants.
 
 ## Projects
 
+[**Data Lagoon**](https://github.com/c11z/data-lagoon)
+A curious collection of data for friends.
 [**or, The Whale**](https://github.com/c11z/or-the-whale)
 NLP comparison between the original and an abridged version of the novel Moby Dick. Using Python and spaCy. Delivered as a talk at [Starcon 2019](https://www.youtube.com/watch?v=tyvVk3GLmy8). 
 [**python.mk**](https://github.com/c11z/python-mk)
@@ -52,10 +54,10 @@ A webcomic aggregator and RSS feed generator.
 
 
 ## Skills
-- **Design:** Proficient OLTP and OLAP data modeling, and pipelines with Airflow.
-- **Languages:** Proficient in Python and Scala.
-- **Tools:** Proficient in Linux, Git, Docker, Nomad, AWS and Google Cloud. Knowledgeable in Spinnaker, Nginx, and Kubernetes.
-- **Data:** Proficient in Airflow, MySQL, PostgreSQL, Redshift, Hive, and Presto. Knowledgeable in BigQuery, MongoDB, Spark, Kafka, and Elasticsearch.
+- **Languages:** Expert in Python. Proficient in Scala.
+- **Pipelines:** Expert in Airflow. Proficient in Prefect and DBT.
+- **Infrastructure:** Expert in Docker, Terraform and AWS. Knowledgeable in Spinnaker, Nomad, Kubernetes, and Google Cloud.
+- **Databases:** Proficient in MySQL, PostgreSQL, Redshift, Hive, Presto, and Snowflake. Knowledgeable in BigQuery, MongoDB, Spark, Elasticsearch, and Kafka.
 
 
 ## Education

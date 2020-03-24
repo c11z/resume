@@ -6,6 +6,7 @@ corydominguez@gmail.com // (347) 725-0527
 ## Experience
 
 **Senior Data Engineer,** [**Vacasa**](https://vacasa.com) **—** April *2019 to Present*
+
 Vacation rental property management.
 
 - Deployed a multi environment Airflow
@@ -14,6 +15,7 @@ Vacation rental property management.
 - Supported 250 analysts and 27 engineering teams
 
 **Software Engineer,** [**imgix**](https://www.imgix.com/) **—** *March 2018 to December 2018*
+
 Transforms, optimizes, and intelligently caches your entire image library for fast websites and apps using simple and robust URL parameters.
 
 - Expanded the analytics web API in Python / Tornado / MySQL
@@ -22,6 +24,7 @@ Transforms, optimizes, and intelligently caches your entire image library for fa
 - Analysis and research with Google BigQuery
 
 **Software Engineer,** [**Chartboost**](https://chartboost.com) **—** *June 2015 to March 2018*
+
 Mobile gaming in-app monetization and programmatic advertising platform.
 
 - Extensive refactor of the analytics web API in Scala / Play Framework
@@ -30,11 +33,13 @@ Mobile gaming in-app monetization and programmatic advertising platform.
 - Pioneered continuous delivery of stateless services using Spinnaker
 
 **Software Engineer,** [**Yahoo**](https://commercecentral.luminate.com/) **—** *August 2013 to November 2014*
+
 Yahoo acquired Lexity and re-branded it as Commerce Central. 
 
 - Scaled the extraction service
 
 **Software Engineer, Lexity —** *January 2013 to August 2013*
+
 Marketing tools for e-commerce merchants.
 
 - Started as an intern and accepted full time offer after 3 months
@@ -63,7 +68,10 @@ A webcomic aggregator and RSS feed generator.
 ## Education
 
 **Alumnus,** [**Recurse Center**](https://recurse.com) **—** *February 2015 to May 2015*
+
 A self-directed educational retreat for software developers.
+
 **University of California, Santa Cruz —** *2009 to 2011* 
+
 Major: Applied Physics (Incomplete)
 

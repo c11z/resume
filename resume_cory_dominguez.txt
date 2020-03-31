@@ -1,0 +1,28 @@
+﻿Cory Dominguez
+[ (347) 725-0527, corydominguez@gmail.com, linkedin.com/in/corydominguez, github.com/c11z,  medium.com/@c11z ]
+EXPERIENCE
+Senior Data Engineer, Vacasa — April 2019 to Present
+* Deployed a multi environment Airflow to enable local development, safe testing in staging and confident running in production. This process allows the building of pipelines and data models to be more accessible to engineers and analysts outside of the data team.
+* Set up an EMR cluster to leverage Hive, Presto and Spark tools and establish a data lake in S3 that can be integrated with legacy datasets via Redshift Spectrum.
+* Launched a custom data catalog by programmatically crawling the information schema of our databases and building a static website with pages referencing tables that can be annotated.
+* Held regular data office hours to provide mentorship, and guidance.
+* Gave several internal presentations covering database modeling and data engineering tools.
+Software Engineer, imgix — March 2018 to December 2018
+Software Engineer, Chartboost — June 2015 to March 2018
+Software Engineer, Yahoo — August 2013 to November 2014
+Software Engineer, Lexity — January 2013 to August 2013
+PROJECTS
+Data Lagoon — A curious collection of data for friends.
+or, The Whale — NLP comparison of the original and an abridged version of the novel Moby Dick.
+python.mk — A Makefile that contains the seed of a python scripting development environment.
+Comic Gator — A webcomic aggregator and RSS feed generator.
+SKILLS
+Languages: Expert in Python. Proficient in Scala.
+Pipelines: Expert in Airflow. Proficient in Prefect and DBT.
+Infrastructure: Expert in Docker, Terraform and AWS. Knowledgeable in Spinnaker, Kubernetes, and Google Cloud.
+Databases: Proficient in MySQL, PostgreSQL, Redshift, Hive, Presto, and Snowflake. Knowledgeable in BigQuery, MongoDB, Spark, Elasticsearch, and Kafka.
+EDUCATION
+Alumnus, Recurse Center — February 2015 to May 2015
+A self-directed educational retreat for software developers.
+University of California, Santa Cruz — 2009 to 2011 
+Major: Applied Physics (Incomplete)

@@ -1,28 +1,39 @@
 ﻿Cory Dominguez
 [ (347) 725-0527, corydominguez@gmail.com, linkedin.com/in/corydominguez, github.com/c11z,  medium.com/@c11z ]
-EXPERIENCE
-Senior Data Engineer, Vacasa — April 2019 to Present
-* Deployed a multi environment Airflow to enable local development, safe testing in staging and confident running in production. This process allows the building of pipelines and data models to be more accessible to engineers and analysts outside of the data team.
-* Set up an EMR cluster to leverage Hive, Presto and Spark tools and establish a data lake in S3 that can be integrated with legacy datasets via Redshift Spectrum.
-* Launched a custom data catalog by programmatically crawling the information schema of our databases and building a static website with pages referencing tables that can be annotated.
-* Held regular data office hours to provide mentorship, and guidance.
-* Gave several internal presentations covering database modeling and data engineering tools.
+Experience
+Data Engineer, Meta (WhatsApp) — March 2021 to Present
+* Instituted Oncall Office Hours, a team of volunteers established to improve the oncall experience.
+   * Lead an efficiency project that reclaimed 25% of storage utilization in the warehouse.
+   * Provided documentation and training presentations on Access Control List (ACL) design, and Data Quality (DQ) Check investigations.
+   * Mentored a dozen Data Engineers, Scientists and Researchers on warehouse tools and policies.  
+* Data lead on WhatsApp end-to-end encryption server integration with Facebook Messenger app.
+   * Brokered alignment on performance metrics that resulted in an improvement of p90 latency by 15% and success rate by 20%.
+* Data lead on integration with Meta survey infrastructure.
+   * Designed data governance and access controls for critical commitments with EU regulators.
+   * Acted as single thread owner for a paramount survey and analysis relating to earnings call reporting.
+   * Authored the workflow documentation that coordinated the insights organization on user targeting, sampling, registration, response collection and weighting.
+* Data lead for Public Service Announcement (PSA) feature.
+   * Including data validation, metric definitions, pipelining, and dashboarding for the marketing team.
+* Contributed to de-identification of User Identifiable Information (UII) design and implementation.
+Data Engineer, Vacasa — April 2019 to February 2021
 Software Engineer, imgix — March 2018 to December 2018
 Software Engineer, Chartboost — June 2015 to March 2018
 Software Engineer, Yahoo — August 2013 to November 2014
 Software Engineer, Lexity — January 2013 to August 2013
-PROJECTS
-Data Lagoon — A curious collection of data for friends.
-or, The Whale — NLP comparison of the original and an abridged version of the novel Moby Dick.
+Projects
+or, The Whale — NLP comparison between the original and an abridged version of Moby Dick.
 python.mk — A Makefile that contains the seed of a python scripting development environment.
+Git Tableflip —  Bash script to realize https://xkcd.com/1597/
 Comic Gator — A webcomic aggregator and RSS feed generator.
-SKILLS
+Solitaire — An output-feedback mode stream cipher designed by Bruce Schneier and popularized in the Cryptonomicon by Neal Stephenson.
+Skills
 Languages: Expert in Python. Proficient in Scala.
-Pipelines: Expert in Airflow. Proficient in Prefect and DBT.
-Infrastructure: Expert in Docker, Terraform and AWS. Knowledgeable in Spinnaker, Kubernetes, and Google Cloud.
-Databases: Proficient in MySQL, PostgreSQL, Redshift, Hive, Presto, and Snowflake. Knowledgeable in BigQuery, MongoDB, Spark, Elasticsearch, and Kafka.
-EDUCATION
+Pipelines: Expert in Dataswarm and Airflow. Proficient in Prefect and DBT.
+Visualization: Expert in Unidash. Proficient in Looker.
+Infrastructure: Expert in Docker and Terraform. Proficient in AWS. Knowledgeable in GCP.
+Databases: Expert in Presto, Hive, SparkSQL and Redshift. Proficient in MySQL, PostgreSQL, Snowflake and BigQuery. Knowledgeable in MongoDB and Elasticsearch.
+Education
 Alumnus, Recurse Center — February 2015 to May 2015
 A self-directed educational retreat for software developers.
-University of California, Santa Cruz — 2009 to 2011 
-Major: Applied Physics (Incomplete)
+University of California, Santa Cruz — 2009 to 2020
+Bachelor of Science in Applied Physics

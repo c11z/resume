@@ -1,5 +1,15 @@
 # Resume
 
-The resume of Cory Dominguez: https://c11z.github.io/resume/
+This repo hosts an extended version of Cory Dominguez's resume as a static website on GitHub Pages. The site renders the full resume with download buttons for 1-page summaries in Markdown and PDF formats.
 
-This repository contains the source for the resume website, hosted on GitHub Pages. The resume content lives in `resume.md` as the single source of truth.
+**Live site:** https://c11z.github.io/resume/
+
+**Resume source:** [resume.md](resume.md)
+
+## Local Development
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open http://localhost:8000.

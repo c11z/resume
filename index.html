@@ -27,7 +27,12 @@
       .then(res => res.text())
       .then(md => {
         markdownText = md;
-        document.getElementById('resume').innerHTML = marked.parse(md);
+        const resume = document.getElementById('resume');
+        resume.innerHTML = marked.parse(md);
+        const headings = resume.querySelectorAll('h2');
+        if (headings.length > 1) {
+          headings[1].classList.add('page-break');
+        }
       });
 
     document.getElementById('download-md').addEventListener('click', () => {
@@ -48,7 +53,7 @@
         filename: 'resume_cory_dominguez.pdf',
         jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
         html2canvas: { scale: 2, useCORS: true },
-        pagebreak: { mode: 'avoid-all' }
+        pagebreak: { mode: 'css' }
       }).from(element).save().then(() => {
         element.classList.remove('pdf-mode');
       });

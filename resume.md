@@ -1,24 +1,53 @@
 # Cory Dominguez
 
-(347) 725-0527 | [corydominguez@gmail.com](mailto:corydominguez@gmail.com) | [LinkedIn](https://linkedin.com/in/corydominguez) | [GitHub](https://github.com/c11z) | [Medium](https://medium.com/@c11z)
++44 7729 381341 | [corydominguez@gmail.com](mailto:corydominguez@gmail.com) | [LinkedIn](https://linkedin.com/in/corydominguez) | [GitHub](https://github.com/c11z)
 
 ## Experience
 
 ### Data Engineer, Meta (WhatsApp) — March 2021 to Present
 
-- Instituted Oncall Office Hours, a team of volunteers established to improve the oncall experience.
-  - Lead an efficiency project that reclaimed 25% of storage utilization in the warehouse.
-  - Provided documentation and training presentations on Access Control List (ACL) design, and Data Quality (DQ) Check investigations.
-  - Mentored a dozen Data Engineers, Scientists and Researchers on warehouse tools and policies.
-- Data lead on WhatsApp end-to-end encryption server integration with Facebook Messenger app.
-  - Brokered alignment on performance metrics that resulted in an improvement of p90 latency by 15% and success rate by 20%.
-- Data lead on integration with Meta survey infrastructure.
-  - Designed data governance and access controls for critical commitments with EU regulators.
-  - Acted as single thread owner for a paramount survey and analysis relating to earnings call reporting.
-  - Authored the workflow documentation that coordinated the insights organization on user targeting, sampling, registration, response collection and weighting.
-- Data lead for Public Service Announcement (PSA) feature.
-  - Including data validation, metric definitions, pipelining, and dashboarding for the marketing team.
-- Contributed to de-identification of User Identifiable Information (UII) design and implementation.
+#### Impersonation Integrity Detection & Prevention
+
+- Designed and built a protected username registry to safeguard high-value accounts during the global rollout of public usernames, preventing impersonation of public figures and brands at launch scale.
+- Developed a key scraping detection metric to quantify and track malicious username harvesting activity across the platform.
+- Created the team's KPI dashboard calculating impersonation contact rates and statistically debiased precision and recall measurements, enabling data-driven enforcement decisions and goaling.
+
+#### Business Paid Messaging Analytics
+
+- Improved data collection reliability and coverage for business-to-consumer paid messaging interactions.
+- Designed the end-to-end business interaction funnel, providing visibility into user engagement from message delivery through to conversion, informing product and monetisation strategy.
+- Partnered with legal counsel to define compliant data collection strategies for impression, format, and revenue metrics, balancing analytical needs with regulatory and privacy requirements.
+
+#### User Research Surveys & Measurement
+
+- Integrated the messaging platform with the company's centralised survey infrastructure, establishing a scalable foundation for user research.
+- Launched 5 major sentiment tracking surveys, enabling continuous measurement of user satisfaction and trust.
+- Provided ongoing data support and education to user experience research teams, democratising access to survey insights.
+- Built automated data processing and statistical weighting pipelines, reducing turnaround time from raw responses to actionable insights.
+- Owned the critical "Counting Accounts and People" survey — WhatsApp's methodological backbone of the Monthly Active People metric reported in quarterly earnings calls.
+
+#### End-to-End Encrypted Messaging Integration
+
+- Led alignment on the data collection strategy for integrating end-to-end encrypted messaging across Facebook Messenger and Instagram Direct, preserving the WhatsApp's privacy-first principles.
+- Landed the principal performance, reliability, and efficiency metrics for encrypted messages on the newly integrated platforms.
+
+#### Data Infrastructure Modernization
+
+*Pipeline Migration*
+
+- Led strategy and implementation for migrating data collection from a legacy bespoke infrastructure to the company's modern unified platform, delivering:
+
+  - Faster data landing times
+  - Improved data enrichment capabilities
+  - Stronger privacy controls and compliance posture
+
+*Access Control Overhaul*
+
+- Contributed to a comprehensive redesign of dataset access control policies, focusing on efficiency, regulatory compliance, and least-privilege principles.
+
+*Warehouse Capacity Optimisation*
+
+- Led efforts to streamline data warehouse usage, reclaiming **dozens of petabytes** of storage and reducing compute usage by **~30%** in some of our largest pipelines.
 
 ### Data Engineer, Vacasa — April 2019 to February 2021
 
@@ -30,21 +59,23 @@
 
 ### Software Engineer, Lexity — January 2013 to August 2013
 
-## Projects
-
-- **or, The Whale** — NLP comparison between the original and an abridged version of Moby Dick.
-- **python.mk** — A Makefile that contains the seed of a python scripting development environment.
-- **Git Tableflip** — Bash script to realize https://xkcd.com/1597/
-- **Comic Gator** — A webcomic aggregator and RSS feed generator.
-- **Solitaire** — An output-feedback mode stream cipher designed by Bruce Schneier and popularized in the Cryptonomicon by Neal Stephenson.
-
 ## Skills
 
-- **Languages:** Expert in Python. Proficient in Scala.
-- **Pipelines:** Expert in Dataswarm and Airflow. Proficient in Prefect and DBT.
-- **Visualization:** Expert in Unidash. Proficient in Looker.
-- **Infrastructure:** Expert in Docker and Terraform. Proficient in AWS. Knowledgeable in GCP.
+- **Languages:** Expert in Python and SQL. Proficient in Scala.
+- **Pipelines:** Expert in Airflow, DBT and proprietary Meta data infrastructure.
+- **Visualization& Data Apps:** Proficient in custom next.js Presto backed Vega-Lite rendered data dashboarding platforms.
+- **Infrastructure:** Expert in Docker and Terraform, AWS and GCP.
 - **Databases:** Expert in Presto, Hive, SparkSQL and Redshift. Proficient in MySQL, PostgreSQL, Snowflake and BigQuery. Knowledgeable in MongoDB and Elasticsearch.
+- **Data Governance:** Expert in access control policy design, privacy-preserving data collection, regulatory compliance frameworks, capacity planning and optimisation.
+- **Analytics & Measurement:** Expert in Funnel design, KPI development, statistical survey weighting, debiased precision/recall measurement, A/B testing frameworks.
+- **Collaboration:** Expert in Cross-functional partnership with legal, user research and product teams supporting technical education and enablement for non-technical stakeholders.
+
+## Projects
+
+[**or, The Whale**](https://github.com/c11z/or-the-whale) **—** NLP comparison between the original and an abridged version of Moby Dick.  
+[**Git Tableflip**](https://github.com/c11z/git-tableflip) **—** A silly bash script to emotionally realize [https://xkcd.com/1597/](https://xkcd.com/1597/)  
+[**Comic Gator**](https://github.com/c11z/comicgator) **—** A webcomic aggregator and RSS feed generator.  
+[**Solitaire**](https://github.com/c11z/solitaire) **—** An output-feedback mode stream cipher designed by Bruce Schneier and popularized in the Cryptonomicon by Neal Stephenson.
 
 ## Education
 

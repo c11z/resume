@@ -83,11 +83,19 @@ body {
 }
 
 #resume h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #222;
-  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111;
+  margin-top: 1rem;
   margin-bottom: 0.3rem;
+}
+
+#resume h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 0.6rem;
+  margin-bottom: 0.25rem;
 }
 
 #resume p {
@@ -184,4 +192,29 @@ body {
 #resume.pdf-mode p {
   font-size: 9.5pt;
   margin-bottom: 2pt;
+}
+
+#resume.pdf-mode h4 {
+  font-size: 9pt;
+  font-weight: 500;
+  margin-top: 2pt;
+  margin-bottom: 1pt;
+}
+
+#resume.pdf-mode h2 {
+  page-break-after: avoid;
+}
+
+#resume.pdf-mode h2.page-break {
+  page-break-before: always;
+}
+
+#resume.pdf-mode h3,
+#resume.pdf-mode h4 {
+  page-break-after: avoid;
+}
+
+#resume.pdf-mode ul,
+#resume.pdf-mode li {
+  page-break-inside: avoid;
 }

@@ -67,7 +67,7 @@
 - **Infrastructure:** Expert in Docker and Terraform, AWS and GCP.
 - **Databases:** Expert in Presto, Hive, SparkSQL and Redshift. Proficient in MySQL, PostgreSQL, Snowflake and BigQuery. Knowledgeable in MongoDB and Elasticsearch.
 - **Data Governance:** Expert in access control policy design, privacy-preserving data collection, regulatory compliance frameworks, capacity planning and optimisation.
-- **Analytics & Measurement:** Expert in Funnel design, KPI development, statistical survey weighting, debiased precision/recall measurement, A/B testing frameworks.
+- **Analytics & Measurement:** Expert in data collection design, KPI development, statistical survey weighting, debiased precision/recall measurement, A/B testing frameworks.
 - **Collaboration:** Expert in Cross-functional partnership with legal, user research and product teams supporting technical education and enablement for non-technical stakeholders.
 
 ## Projects

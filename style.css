@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+  line-height: 1.5;
+}
+
+/* Download bar */
+
+.download-bar {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+.download-bar button {
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fafafa;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.download-bar button:hover {
+  background: #eee;
+  border-color: #999;
+}
+
+/* Resume container */
+
+#resume {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+}
+
+/* Typography */
+
+#resume h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: #111;
+}
+
+#resume h1 + p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+#resume h1 + p a {
+  color: #555;
+}
+
+#resume h1 + p a:hover {
+  color: #0366d6;
+}
+
+#resume h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #333;
+  border-bottom: 1.5px solid #ddd;
+  padding-bottom: 0.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+#resume h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+  margin-top: 0.75rem;
+  margin-bottom: 0.3rem;
+}
+
+#resume p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+#resume ul {
+  padding-left: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+#resume li {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+#resume li ul {
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+
+#resume a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+#resume a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  #resume {
+    padding: 1rem;
+    margin-top: 3.5rem;
+  }
+
+  .download-bar {
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+/* PDF mode — compact styling for one-page fit */
+
+#resume.pdf-mode {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  font-size: 9.5pt;
+  line-height: 1.25;
+}
+
+#resume.pdf-mode h1 {
+  font-size: 16pt;
+  margin-bottom: 1pt;
+}
+
+#resume.pdf-mode h1 + p {
+  font-size: 8.5pt;
+  margin-bottom: 6pt;
+}
+
+#resume.pdf-mode h2 {
+  font-size: 10.5pt;
+  margin-top: 7pt;
+  margin-bottom: 3pt;
+  padding-bottom: 1pt;
+}
+
+#resume.pdf-mode h3 {
+  font-size: 9.5pt;
+  margin-top: 3pt;
+  margin-bottom: 1pt;
+}
+
+#resume.pdf-mode ul {
+  padding-left: 14pt;
+  margin-bottom: 2pt;
+}
+
+#resume.pdf-mode li {
+  font-size: 9.5pt;
+  margin-bottom: 1pt;
+}
+
+#resume.pdf-mode p {
+  font-size: 9.5pt;
+  margin-bottom: 2pt;
+}

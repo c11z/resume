@@ -47,7 +47,7 @@
 
 *Warehouse Capacity Optimisation*
 
-- Led efforts to streamline data warehouse usage, reclaiming **dozens of petabytes** of storage and reducing compute usage by **~30%** in some of our largest pipelines.
+- Led efforts to streamline data warehouse usage, reclaiming ~6 petabytes of storage and reducing compute usage by ~30% in some of our largest pipelines.
 
 ### Data Engineer, Vacasa — April 2019 to February 2021
 
@@ -79,10 +79,10 @@
 
 ## Education
 
-### Alumnus, Recurse Center — February 2015 to May 2015
+### Alumnus, Recurse Center
 
-A self-directed educational retreat for software developers.
+A 3 month self-directed educational retreat for software engineers.
 
-### University of California, Santa Cruz — 2009 to 2020
+### University of California, Santa Cruz
 
 Bachelor of Science in Applied Physics

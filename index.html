@@ -1,63 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cory Dominguez — Resume</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="download-bar">
-    <button id="download-md" title="Download Markdown">&#8615; MD</button>
-    <button id="download-pdf" title="Download PDF">&#8615; PDF</button>
-  </div>
-  <main id="resume">
-    <noscript>
-      <p>This site requires JavaScript to render the resume. You can
-        <a href="resume.md">download the markdown file</a> directly.</p>
-    </noscript>
-  </main>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cory Dominguez — Resume</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="download-bar">
+            <button id="download-md" title="Download Markdown">
+                &#8615; MD
+            </button>
+            <button id="download-pdf" title="Download PDF">&#8615; PDF</button>
+            <button id="print" title="Print">&#9113; Print</button>
+        </div>
+        <main id="resume">
+            <noscript>
+                <p>
+                    This site requires JavaScript to render the resume. You can
+                    <a href="resume.md">download the markdown file</a> directly.
+                </p>
+            </noscript>
+        </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
-  <script>
-    let markdownText = '';
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
+        <script>
+            let markdownText = "";
 
-    fetch('resume.md')
-      .then(res => res.text())
-      .then(md => {
-        markdownText = md;
-        const resume = document.getElementById('resume');
-        resume.innerHTML = marked.parse(md);
-        const headings = resume.querySelectorAll('h2');
-        if (headings.length > 1) {
-          headings[1].classList.add('page-break');
-        }
-      });
+            fetch("resume.md")
+                .then((res) => res.text())
+                .then((md) => {
+                    markdownText = md;
+                    const resume = document.getElementById("resume");
+                    resume.innerHTML = marked.parse(md);
+                    const headings = resume.querySelectorAll("h2");
+                    if (headings.length > 1) {
+                        headings[1].classList.add("page-break");
+                    }
+                });
 
-    document.getElementById('download-md').addEventListener('click', () => {
-      const blob = new Blob([markdownText], { type: 'text/markdown' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'resume_cory_dominguez.md';
-      a.click();
-      URL.revokeObjectURL(url);
-    });
+            document
+                .getElementById("download-md")
+                .addEventListener("click", () => {
+                    const blob = new Blob([markdownText], {
+                        type: "text/markdown",
+                    });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement("a");
+                    a.href = url;
+                    a.download = "resume_cory_dominguez.md";
+                    a.click();
+                    URL.revokeObjectURL(url);
+                });
 
-    document.getElementById('download-pdf').addEventListener('click', () => {
-      const element = document.getElementById('resume');
-      element.classList.add('pdf-mode');
-      html2pdf().set({
-        margin: [0.3, 0.4, 0.3, 0.4],
-        filename: 'resume_cory_dominguez.pdf',
-        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
-        html2canvas: { scale: 2, useCORS: true },
-        pagebreak: { mode: 'css' }
-      }).from(element).save().then(() => {
-        element.classList.remove('pdf-mode');
-      });
-    });
-  </script>
-</body>
+            document
+                .getElementById("download-pdf")
+                .addEventListener("click", () => {
+                    const element = document.getElementById("resume");
+                    element.classList.add("pdf-mode");
+                    html2pdf()
+                        .set({
+                            margin: [0.3, 0.4, 0.3, 0.4],
+                            filename: "resume_cory_dominguez.pdf",
+                            jsPDF: {
+                                unit: "in",
+                                format: "letter",
+                                orientation: "portrait",
+                            },
+                            html2canvas: { scale: 2, useCORS: true },
+                            pagebreak: { mode: "css" },
+                        })
+                        .from(element)
+                        .save()
+                        .then(() => {
+                            element.classList.remove("pdf-mode");
+                        });
+                });
+
+            document.getElementById("print").addEventListener("click", () => {
+                window.print();
+            });
+        </script>
+    </body>
 </html>

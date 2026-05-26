@@ -20,15 +20,15 @@
 
 #### User Research Surveys & Measurement
 
-- Integrated the messaging platform with the company's centralised survey infrastructure, establishing a scalable foundation for user research.
-- Launched 5 major sentiment tracking surveys, enabling continuous measurement of user satisfaction and trust.
+- Integrated WhatsApp with the company's centralised survey infrastructure, establishing a scalable foundation for user research.
+- Launched 5 major sentiment tracking surveys, enabling continuous measurement of user sentiment and trust.
 - Provided ongoing data support and education to user experience research teams, democratising access to survey insights.
 - Built automated data processing and statistical weighting pipelines, reducing turnaround time from raw responses to actionable insights.
 - Owned the critical "Counting Accounts and People" survey — WhatsApp's methodological backbone of the Monthly Active People metric reported in quarterly earnings calls.
 
 #### End-to-End Encrypted Messaging Integration
 
-- Led alignment on the data collection strategy for integrating end-to-end encrypted messaging across Facebook Messenger and Instagram Direct, preserving the WhatsApp's privacy-first principles.
+- Led alignment on the data collection strategy for integrating end-to-end encrypted messaging across Facebook Messenger and Instagram Direct, preserving WhatsApp's privacy-first principles.
 - Landed the principal performance, reliability, and efficiency metrics for encrypted messages on the newly integrated platforms.
 
 #### Data Infrastructure Modernization
@@ -62,27 +62,25 @@
 ## Skills
 
 - **Languages:** Expert in Python and SQL. Proficient in Scala.
-- **Pipelines:** Expert in Airflow, DBT and proprietary Meta data infrastructure.
-- **Visualization& Data Apps:** Proficient in custom next.js Presto backed Vega-Lite rendered data dashboarding platforms.
+- **Pipelines:** Expert in Airflow, DBT, and proprietary Meta data infrastructure.
+- **Visualization & Data Apps:** Proficient in custom next.js Presto backed Vega-Lite rendered data dashboarding platforms.
 - **Infrastructure:** Expert in Docker and Terraform, AWS and GCP.
-- **Databases:** Expert in Presto, Hive, SparkSQL and Redshift. Proficient in MySQL, PostgreSQL, Snowflake and BigQuery. Knowledgeable in MongoDB and Elasticsearch.
+- **Databases:** Expert in Presto, Hive, SparkSQL, and Redshift. Proficient in MySQL, PostgreSQL, Snowflake, and BigQuery. Knowledgeable in MongoDB and Elasticsearch.
 - **Data Governance:** Expert in access control policy design, privacy-preserving data collection, regulatory compliance frameworks, capacity planning and optimisation.
 - **Analytics & Measurement:** Expert in data collection design, KPI development, statistical survey weighting, debiased precision/recall measurement, A/B testing frameworks.
-- **Collaboration:** Expert in Cross-functional partnership with legal, user research and product teams supporting technical education and enablement for non-technical stakeholders.
+- **Collaboration:** Expert in cross-functional partnership with legal, user research, and product teams supporting technical education and enablement for non-technical stakeholders.
 
 ## Projects
 
 [**or, The Whale**](https://github.com/c11z/or-the-whale) **—** NLP comparison between the original and an abridged version of Moby Dick.  
-[**Git Tableflip**](https://github.com/c11z/git-tableflip) **—** A silly bash script to emotionally realize [https://xkcd.com/1597/](https://xkcd.com/1597/)  
-[**Comic Gator**](https://github.com/c11z/comicgator) **—** A webcomic aggregator and RSS feed generator.  
-[**Solitaire**](https://github.com/c11z/solitaire) **—** An output-feedback mode stream cipher designed by Bruce Schneier and popularized in the Cryptonomicon by Neal Stephenson.
+[**Git Tableflip**](https://github.com/c11z/git-tableflip) **—** A silly bash script to emotionally realize [https://xkcd.com/1597/](https://xkcd.com/1597/).
 
 ## Education
 
-### Alumnus, Recurse Center
+### Alumnus, Recurse Center -- Spring 2015
 
 A 3 month self-directed educational retreat for software engineers.
 
-### University of California, Santa Cruz
+### University of California, Santa Cruz -- 2009 to 2011
 
 Bachelor of Science in Applied Physics

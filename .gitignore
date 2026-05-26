@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.zed/
+.idea/
+*.swp
+*.swo
+
+# Python dev server
+__pycache__/
+
+# Generated PDFs
+*.pdf

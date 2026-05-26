@@ -146,80 +146,11 @@ body {
   }
 }
 
-/* PDF mode — compact styling for one-page fit */
-
-#resume.pdf-mode {
-  max-width: none;
-  margin: 0;
-  padding: 0;
-  font-size: 9.5pt;
-  line-height: 1.25;
-}
-
-#resume.pdf-mode h1 {
-  font-size: 16pt;
-  margin-bottom: 1pt;
-}
-
-#resume.pdf-mode h1 + p {
-  font-size: 8.5pt;
-  margin-bottom: 6pt;
-}
-
-#resume.pdf-mode h2 {
-  font-size: 10.5pt;
-  margin-top: 7pt;
-  margin-bottom: 3pt;
-  padding-bottom: 1pt;
-}
-
-#resume.pdf-mode h3 {
-  font-size: 9.5pt;
-  margin-top: 3pt;
-  margin-bottom: 1pt;
-}
-
-#resume.pdf-mode ul {
-  padding-left: 14pt;
-  margin-bottom: 2pt;
-}
-
-#resume.pdf-mode li {
-  font-size: 9.5pt;
-  margin-bottom: 1pt;
-}
-
-#resume.pdf-mode p {
-  font-size: 9.5pt;
-  margin-bottom: 2pt;
-}
-
-#resume.pdf-mode h4 {
-  font-size: 9pt;
-  font-weight: 500;
-  margin-top: 2pt;
-  margin-bottom: 1pt;
-}
-
-#resume.pdf-mode h2 {
-  page-break-after: avoid;
-}
-
-#resume.pdf-mode h2.page-break {
-  page-break-before: always;
-}
-
-#resume.pdf-mode h3,
-#resume.pdf-mode h4 {
-  page-break-after: avoid;
-}
-
-#resume.pdf-mode ul,
-#resume.pdf-mode li {
-  page-break-inside: avoid;
-}
-
 /* Print styles */
+
+@page {
+  margin: 0.5in 0.75in;
+}
 
 @media print {
   .download-bar {
@@ -252,7 +183,7 @@ body {
     page-break-after: avoid;
   }
 
-  #resume h2.page-break {
+  #resume h3.page-break {
     page-break-before: always;
   }
 

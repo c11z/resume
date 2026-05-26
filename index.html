@@ -11,8 +11,8 @@
             <button id="download-md" title="Download Markdown">
                 &#8615; MD
             </button>
-            <button id="download-pdf" title="Download PDF">&#8615; PDF</button>
-            <button id="print" title="Print">&#9113; Print</button>
+            <button id="print-full" title="Print Full Resume">&#9113; PDF Full</button>
+            <button id="print-one-page" title="Print One Page Resume">&#9113; PDF One Page</button>
         </div>
         <main id="resume">
             <noscript>
@@ -24,7 +24,6 @@
         </main>
 
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
         <script>
             let markdownText = "";
 
@@ -34,9 +33,12 @@
                     markdownText = md;
                     const resume = document.getElementById("resume");
                     resume.innerHTML = marked.parse(md);
-                    const headings = resume.querySelectorAll("h2");
-                    if (headings.length > 1) {
-                        headings[1].classList.add("page-break");
+                    const h3s = resume.querySelectorAll("h3");
+                    for (const h3 of h3s) {
+                        if (h3.textContent.includes("imgix")) {
+                            h3.classList.add("page-break");
+                            break;
+                        }
                     }
                 });
 
@@ -54,32 +56,23 @@
                     URL.revokeObjectURL(url);
                 });
 
-            document
-                .getElementById("download-pdf")
-                .addEventListener("click", () => {
-                    const element = document.getElementById("resume");
-                    element.classList.add("pdf-mode");
-                    html2pdf()
-                        .set({
-                            margin: [0.3, 0.4, 0.3, 0.4],
-                            filename: "resume_cory_dominguez.pdf",
-                            jsPDF: {
-                                unit: "in",
-                                format: "letter",
-                                orientation: "portrait",
-                            },
-                            html2canvas: { scale: 2, useCORS: true },
-                            pagebreak: { mode: "css" },
-                        })
-                        .from(element)
-                        .save()
-                        .then(() => {
-                            element.classList.remove("pdf-mode");
-                        });
-                });
-
-            document.getElementById("print").addEventListener("click", () => {
+            document.getElementById("print-full").addEventListener("click", () => {
                 window.print();
+            });
+
+            document.getElementById("print-one-page").addEventListener("click", () => {
+                const resume = document.getElementById("resume");
+                const pageBreakEl = resume.querySelector(".page-break");
+                if (!pageBreakEl) { window.print(); return; }
+                const hidden = [];
+                let el = pageBreakEl;
+                while (el) {
+                    el.style.display = "none";
+                    hidden.push(el);
+                    el = el.nextElementSibling;
+                }
+                window.print();
+                hidden.forEach(h => h.style.display = "");
             });
         </script>
     </body>

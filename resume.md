@@ -4,7 +4,7 @@
 
 ## Experience
 
-### Data Engineer, Meta (WhatsApp) — March 2021 to Present
+### Senior Data Engineer, Meta (WhatsApp) — March 2021 to Present
 
 #### Impersonation Integrity Detection & Prevention
 
@@ -37,7 +37,8 @@
 
 - Led strategy and implementation for migrating data collection from a legacy bespoke infrastructure to the company's modern unified platform, delivering:
 
-  - Faster data landing times
+  - Hourly scheduling options by default
+  - Reduced data landing times by ~1 day
   - Improved data enrichment capabilities
   - Stronger privacy controls and compliance posture
 
@@ -49,13 +50,29 @@
 
 - Led efforts to streamline data warehouse usage, reclaiming ~6 petabytes of storage and reducing compute usage by ~30% in some of our largest pipelines.
 
-### Data Engineer, Vacasa — April 2019 to February 2021
+### Senior Data Engineer, Vacasa — April 2019 to February 2021
 
-### Software Engineer, imgix — March 2018 to December 2018
+- First individual contributor data engineering hire; designed the interview process and built a team of 5 data engineers.
+- Stood up core data infrastructure — Airflow, Presto/Trino, DBT, Redshift, and Looker — supporting dozens of stakeholders across the organization.
+- Reduced annual data infrastructure costs by hundreds of thousands of dollars through usage analysis and negotiated long-term AWS agreements.
 
-### Software Engineer, Chartboost — June 2015 to March 2018
+### Senior Software Engineer, imgix — March 2018 to December 2018
+
+- Optimized batch processing jobs from 30s to under 1s by introducing a Redis caching layer.
+- Built a HubSpot CRM data ingestion pipeline using GCP Cloud Composer (Airflow) into BigQuery.
+- Designed server log deletion protocols to ensure compliance with ePrivacy Directive requirements.
+- Elected to leave when relocating from San Francisco, CA to Portland, OR.
+
+### Senior Software Engineer, Chartboost — June 2015 to March 2018
+
+- Refactored the customer-facing analytics dashboard API in Scala (Play Framework) backed by MySQL, and built last-mile data pipelines from Cloudera Hive.
+- Migrated pipeline orchestration from Jenkins to Airflow across the organization.
+- Stood up Spinnaker continuous delivery platform enabling canary deployments for ad server operations.
 
 ### Software Engineer, Yahoo — August 2013 to November 2014
+
+- Joined via Yahoo's acquisition of Lexity in 2013.
+- Owned the data ingestion platform built on Grails backed by MySQL, managing daily scrapes across 10 e-commerce platforms supporting hundreds of SMB clients.
 
 ### Software Engineer, Lexity — January 2013 to August 2013
 
@@ -64,23 +81,23 @@
 - **Languages:** Expert in Python and SQL. Proficient in Scala.
 - **Pipelines:** Expert in Airflow, DBT, and proprietary Meta data infrastructure.
 - **Visualization & Data Apps:** Proficient in custom next.js Presto backed Vega-Lite rendered data dashboarding platforms.
-- **Infrastructure:** Expert in Docker and Terraform, AWS and GCP.
-- **Databases:** Expert in Presto, Hive, SparkSQL, and Redshift. Proficient in MySQL, PostgreSQL, Snowflake, and BigQuery. Knowledgeable in MongoDB and Elasticsearch.
+- **Infrastructure:** Expert in Docker and Terraform, AWS, and GCP.
+- **Databases:** Expert in Presto, Hive, and Redshift. Proficient in MySQL, PostgreSQL, Snowflake, and BigQuery.
 - **Data Governance:** Expert in access control policy design, privacy-preserving data collection, regulatory compliance frameworks, capacity planning and optimisation.
 - **Analytics & Measurement:** Expert in data collection design, KPI development, statistical survey weighting, debiased precision/recall measurement, A/B testing frameworks.
 - **Collaboration:** Expert in cross-functional partnership with legal, user research, and product teams supporting technical education and enablement for non-technical stakeholders.
 
 ## Projects
 
-[**or, The Whale**](https://github.com/c11z/or-the-whale) **—** NLP comparison between the original and an abridged version of Moby Dick.  
-[**Git Tableflip**](https://github.com/c11z/git-tableflip) **—** A silly bash script to emotionally realize [https://xkcd.com/1597/](https://xkcd.com/1597/).
+[**or, The Whale**](https://github.com/c11z/or-the-whale) **—** NLP comparison between the original and an abridged version of Moby Dick. Presented at StarCon 2019.  
+[**Git Tableflip**](https://github.com/c11z/git-tableflip) **—** A silly bash script to emotionally realize [https://xkcd.com/1597/](https://xkcd.com/1597/). Presented at Recurse Center alumni week in May 2018.
 
 ## Education
 
-### Alumnus, Recurse Center -- Spring 2015
+### Alumnus, Recurse Center — Spring 2015
 
 A 3 month self-directed educational retreat for software engineers.
 
-### University of California, Santa Cruz -- 2009 to 2011
+### University of California, Santa Cruz — 2009 to 2011
 
 Bachelor of Science in Applied Physics

@@ -8,6 +8,7 @@
 
 #### Impersonation Integrity Detection & Prevention
 
+- Top 30% AI Adopter at Meta based on rolling average of Active Days and Daily Sessions.
 - Designed and built a protected username registry to safeguard high-value accounts during the global rollout of public usernames, preventing impersonation of public figures and brands at launch scale.
 - Developed a key scraping detection metric to quantify and track malicious username harvesting activity across the platform.
 - Created the team's KPI dashboard calculating impersonation contact rates and statistically debiased precision and recall measurements, enabling data-driven enforcement decisions and goaling.

@@ -149,7 +149,7 @@ body {
 /* Print styles */
 
 @page {
-  margin: 0.5in 0.75in;
+  margin: 0.35in 0.75in;
 }
 
 @media print {

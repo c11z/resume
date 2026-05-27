@@ -8,7 +8,6 @@
 
 #### Impersonation Integrity Detection & Prevention
 
-- Top 30% AI Adopter at Meta based on rolling average of Active Days and Daily Sessions.
 - Designed and built a protected username registry to safeguard high-value accounts during the global rollout of public usernames, preventing impersonation of public figures and brands at launch scale.
 - Developed a key scraping detection metric to quantify and track malicious username harvesting activity across the platform.
 - Created the team's KPI dashboard calculating impersonation contact rates and statistically debiased precision and recall measurements, enabling data-driven enforcement decisions and goaling.
@@ -51,6 +50,10 @@
 
 - Led efforts to streamline data warehouse usage, reclaiming ~6 petabytes of storage and reducing compute usage by ~30% in some of our largest pipelines.
 
+*AI Tooling*
+
+- Top 30% AI Adopter at Meta based on rolling average of Active Days and Daily Sessions across many tools, both industry-standard (Claude Code, Codex) and proprietary (DevMate, Analytics Agent).
+
 ### Senior Data Engineer, Vacasa — April 2019 to February 2021
 
 - First individual contributor data engineering hire; designed the interview process and built a team of 5 data engineers.
@@ -81,8 +84,8 @@
 
 - **Languages:** Expert in Python and SQL. Proficient in Scala.
 - **Pipelines:** Expert in Airflow, DBT, and proprietary Meta data infrastructure.
-- **Visualization & Data Apps:** Proficient in custom next.js Presto backed Vega-Lite rendered data dashboarding platforms.
-- **Infrastructure:** Expert in Docker and Terraform, AWS, and GCP.
+- **Visualization & Data Apps:** Proficient in custom Next.js Presto-backed Vega-Lite-rendered data dashboarding platforms.
+- **Infrastructure:** Expert in Docker, Terraform, AWS, and GCP.
 - **Databases:** Expert in Presto, Hive, and Redshift. Proficient in MySQL, PostgreSQL, Snowflake, and BigQuery.
 - **Data Governance:** Expert in access control policy design, privacy-preserving data collection, regulatory compliance frameworks, capacity planning and optimisation.
 - **Analytics & Measurement:** Expert in data collection design, KPI development, statistical survey weighting, debiased precision/recall measurement, A/B testing frameworks.
@@ -97,7 +100,7 @@
 
 ### Alumnus, Recurse Center — Spring 2015
 
-A 3 month self-directed educational retreat for software engineers.
+A 3-month self-directed educational retreat for software engineers.
 
 ### University of California, Santa Cruz — 2009 to 2011
 

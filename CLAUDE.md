@@ -25,6 +25,7 @@ Content changes go in `resume.md`. Layout and styling changes go in `style.css`.
 
 ## Key Details
 
+- The production branch is `main` (not `master`). GitHub Pages deploys from `main`, and the release workflow triggers on pushes to `main`.
 - `.nojekyll` disables Jekyll processing on GitHub Pages so files are served as-is.
 - The second `<h2>` in the rendered resume gets a `.page-break` class for PDF/print page breaks.
 - PDF export temporarily adds `.pdf-mode` to `#resume`, generates the PDF, then removes it — CSS for this mode uses `pt` units sized for letter paper.

@@ -1,3 +1,7 @@
+---
+version: 1.0
+---
+
 # Cory Dominguez
 
 +44 7729 381341 | [corydominguez@gmail.com](mailto:corydominguez@gmail.com) | [LinkedIn](https://linkedin.com/in/corydominguez) | [GitHub](https://github.com/c11z)

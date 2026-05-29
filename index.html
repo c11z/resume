@@ -31,8 +31,9 @@
                 .then((res) => res.text())
                 .then((md) => {
                     markdownText = md;
+                    const stripped = md.replace(/^---\n[\s\S]*?\n---\n/, "");
                     const resume = document.getElementById("resume");
-                    resume.innerHTML = marked.parse(md);
+                    resume.innerHTML = marked.parse(stripped);
                     const h3s = resume.querySelectorAll("h3");
                     for (const h3 of h3s) {
                         if (h3.textContent.includes("imgix")) {

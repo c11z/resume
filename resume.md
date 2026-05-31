@@ -1,5 +1,5 @@
 ---
-version: 1.0
+version: 1.1
 ---
 
 # Cory Dominguez
@@ -97,6 +97,7 @@ version: 1.0
 
 ## Projects
 
+[**Incretin Log**](https://github.com/c11z/incretin-log) **—** Personal health-tracking dashboard for recording weekly body measurements on incretin medication, with a static TypeScript frontend and Cloudflare Worker API backed by D1.  
 [**or, The Whale**](https://github.com/c11z/or-the-whale) **—** NLP comparison between the original and an abridged version of Moby Dick. Presented at StarCon 2019.  
 [**Git Tableflip**](https://github.com/c11z/git-tableflip) **—** A silly bash script to emotionally realize [https://xkcd.com/1597/](https://xkcd.com/1597/). Presented at Recurse Center alumni week in May 2018.
 

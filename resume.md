@@ -89,7 +89,7 @@ version: 1.1
 - **Languages:** Expert in Python and SQL. Proficient in Scala.
 - **Pipelines:** Expert in Airflow, DBT, and proprietary Meta data infrastructure.
 - **Visualization & Data Apps:** Proficient in custom Next.js Presto-backed Vega-Lite-rendered data dashboarding platforms.
-- **Infrastructure:** Expert in Docker, Terraform, AWS, and GCP.
+- **Infrastructure:** Proficient in Docker, Terraform, AWS, and GCP.
 - **Databases:** Expert in Presto, Hive, and Redshift. Proficient in MySQL, PostgreSQL, Snowflake, and BigQuery.
 - **Data Governance:** Expert in access control policy design, privacy-preserving data collection, regulatory compliance frameworks, capacity planning and optimisation.
 - **Analytics & Measurement:** Expert in data collection design, KPI development, statistical survey weighting, debiased precision/recall measurement, A/B testing frameworks.

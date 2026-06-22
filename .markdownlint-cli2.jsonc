@@ -1,0 +1,25 @@
+{
+  // Rule configuration (markdownlint MDxxx rules)
+  "config": {
+    "default": true,
+    // Resume content is authored one-point-per-line for clean diffs and easy
+    // editing of the single source of truth; line length isn't meaningful here.
+    "MD013": false,
+    // Italic sub-labels in resume.md (e.g. *Pipeline Migration*) are intentional
+    // styling, not headings — and aren't styled as headings in style.css.
+    "MD036": false
+  },
+  // Respect .gitignore when scanning
+  "gitignore": true,
+  // Paths to skip
+  "ignores": [
+    "node_modules",
+    "dist",
+    "build",
+    "CHANGELOG.md",
+    "LICENSE.md",
+    // Claude Code slash-command files have a mandated format (first line is the
+    // command description, not an h1) — they're tooling config, not documentation.
+    ".claude"
+  ]
+}

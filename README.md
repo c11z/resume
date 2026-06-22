@@ -7,7 +7,7 @@ extended, always-current version of his resume as a static website on GitHub Pag
 The site renders the full resume from Markdown in the browser and offers one-click
 downloads of the Markdown source and printable PDFs (full and one-page).
 
-**Live site:** https://c11z.github.io/resume/
+**Live site:** <https://c11z.github.io/resume/>
 
 ## Features
 

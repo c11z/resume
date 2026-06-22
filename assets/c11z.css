@@ -1,0 +1,190 @@
+/* ============================================================
+   c11z — drop-in CSS for static sites
+   Fonts + color tokens + buttons. No JS, no build.
+   Link this one file:  <link rel="stylesheet" href="c11z.css" />
+   ============================================================ */
+
+/* --- Webfonts (Inter Tight + IBM Plex Mono) --- */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ---------- Type ---------- */
+  --font-sans: 'Inter Tight', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, monospace;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --tracking-tight: -0.02em;
+  --tracking-snug: -0.01em;
+
+  --text-sm: 0.875rem;   /* 14 */
+  --text-base: 1rem;     /* 16 */
+
+  /* ---------- Okabe–Ito categorical palette ---------- */
+  --oi-orange:     #E69F00;
+  --oi-sky:        #56B4E9;
+  --oi-green:      #009E73;
+  --oi-yellow:     #F0E442;
+  --oi-blue:       #0072B2;
+  --oi-vermillion: #D55E00;
+  --oi-purple:     #CC79A7;
+
+  /* ---------- Neutral ramp (cool slate, paper-white top) ---------- */
+  --gray-0:   #FFFFFF;
+  --gray-25:  #FBFBFA;  /* paper */
+  --gray-50:  #F4F5F6;
+  --gray-100: #E9EBEE;
+  --gray-200: #DCDFE4;
+  --gray-300: #C2C7CF;
+  --gray-400: #9AA1AC;
+  --gray-500: #6B7280;
+  --gray-600: #4B5563;
+  --gray-700: #353C46;
+  --gray-800: #20262F;
+  --gray-900: #12161B;
+  --gray-950: #090B0E;
+
+  /* ---------- Accent (blue) + highlight (vermillion) ramps ---------- */
+  --blue-50:  #E6F1F8;
+  --blue-500: #0072B2;
+  --blue-600: #005E93;
+  --blue-700: #004B76;
+  --verm-50:  #FCEDE4;
+  --verm-500: #D55E00;
+  --verm-600: #B14E00;
+
+  /* ---------- Semantic aliases (use these) ---------- */
+  --bg:             var(--gray-25);
+  --surface:        var(--gray-0);
+  --surface-sunken: var(--gray-50);
+
+  --text-primary:   var(--gray-900);
+  --text-secondary: var(--gray-600);
+  --text-tertiary:  var(--gray-500);
+  --text-inverse:   var(--gray-0);
+  --text-link:      var(--blue-500);
+
+  --border:         var(--gray-200);
+  --border-strong:  var(--gray-300);
+  --rule:           var(--gray-100);
+
+  --accent:         var(--blue-500);
+  --accent-hover:   var(--blue-600);
+  --accent-active:  var(--blue-700);
+  --highlight:      var(--verm-500);
+
+  --danger:         var(--oi-vermillion);
+
+  /* ---------- Radii ---------- */
+  --radius-xs: 3px;
+  --radius-sm: 5px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 999px;
+
+  --focus-ring: 0 0 0 3px rgba(0, 114, 178, 0.32);
+}
+
+::selection { background: rgba(0, 114, 178, 0.16); }
+
+/* Bring the brand font to the page. Scope or remove if you only
+   want it on specific elements. */
+body {
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+}
+
+/* ============================================================
+   Button  —  <button class="btn btn--primary">Label</button>
+   Variants: --primary (default) --secondary --ghost --danger
+   Sizes:    --sm  (default md)  --lg
+   Modifiers: --full (full width)
+   ============================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 38px;
+  padding: 0 16px;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  line-height: 1;
+  letter-spacing: var(--tracking-snug);
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+.btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* Variants */
+.btn--primary {
+  background: var(--accent);
+  color: var(--text-inverse);
+  border-color: var(--accent);
+}
+.btn--primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.btn--secondary {
+  background: var(--surface);
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+}
+.btn--secondary:hover:not(:disabled) { background: var(--surface-sunken); }
+
+.btn--ghost {
+  background: transparent;
+  color: var(--text-secondary);
+  border-color: transparent;
+}
+.btn--ghost:hover:not(:disabled) {
+  background: var(--surface-sunken);
+  color: var(--text-primary);
+}
+
+.btn--danger {
+  background: var(--danger);
+  color: var(--text-inverse);
+  border-color: var(--danger);
+}
+.btn--danger:hover:not(:disabled) {
+  background: var(--verm-600);
+  border-color: var(--verm-600);
+}
+
+/* Sizes */
+.btn--sm { height: 30px; padding: 0 12px; font-size: var(--text-sm); gap: 6px; }
+.btn--lg { height: 46px; padding: 0 22px; font-size: var(--text-base); }
+
+/* Modifier */
+.btn--full { width: 100%; }
+
+/* ============================================================
+   Icons — Lucide (the c11z icon set)
+   Load once, anywhere before </body>:
+     <script src="https://unpkg.com/lucide@latest"></script>
+     <script>lucide.createIcons();</script>
+   Use:  <i data-lucide="arrow-right" class="icon"></i>
+   Color follows currentColor (inherits text color).
+   ============================================================ */
+.icon,
+[data-lucide] {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  stroke-width: 2;
+}
+.icon--sm { width: 15px; height: 15px; }
+.icon--lg { width: 22px; height: 22px; }

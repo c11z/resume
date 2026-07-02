@@ -3,7 +3,12 @@ name: Release
 on:
   push:
     branches: [main]
-    paths: [resume.md]
+    paths:
+      - resume.md
+      - index.html
+      - style.css
+      - assets/**
+      - scripts/**
 
 jobs:
   release:
@@ -12,6 +17,19 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+
+      - name: Generate PDFs
+        run: ./scripts/generate_pdfs.sh
+
+      - name: Commit PDFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resume.pdf resume_one_page.pdf
+          if ! git diff --cached --quiet; then
+            git commit -m "Regenerate PDFs"
+            git push
+          fi
 
       - name: Extract version from resume.md
         id: version
@@ -35,5 +53,14 @@ jobs:
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           name: Resume ${{ steps.version.outputs.tag }}
-          files: resume.md
+          files: |
+            resume.md
+            resume.pdf
+            resume_one_page.pdf
           generate_release_notes: true
+
+      - name: Update release assets
+        if: steps.check.outputs.exists == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ steps.version.outputs.tag }}" resume.pdf resume_one_page.pdf --clobber

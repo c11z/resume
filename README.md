@@ -13,8 +13,10 @@ downloads of the Markdown source and printable PDFs (full and one-page).
 
 - **Single source of truth** — all resume content lives in [`resume.md`](resume.md).
 - **Client-side rendering** — Markdown is fetched and rendered at runtime; no build step.
-- **Downloads & printing** — export the Markdown source, a full PDF, or a condensed one-page PDF.
-- **Automatic releases** — bumping the version in `resume.md` tags a GitHub Release.
+- **Downloads** — export the Markdown source, a full PDF, or a condensed one-page PDF. The
+  PDFs are pre-rendered with headless Chrome in CI so every visitor gets an identical file.
+- **Automatic releases** — bumping the version in `resume.md` tags a GitHub Release with the
+  Markdown and PDFs attached.
 
 ## Local Development
 
@@ -31,9 +33,11 @@ Then open <http://localhost:8000>.
 | File | Purpose |
 | --- | --- |
 | `resume.md` | Resume content in Markdown — the single source of truth. |
-| `index.html` | Shell that fetches and renders `resume.md` ([marked.js](https://marked.js.org/)) and wires up the download/print buttons. |
+| `index.html` | Shell that fetches and renders `resume.md` ([marked.js](https://marked.js.org/)) and wires up the download buttons. |
 | `style.css` | Screen, PDF, and print styles in one file. |
-| `.github/workflows/release.yml` | Tags a GitHub Release when `resume.md`'s version changes. |
+| `resume.pdf`, `resume_one_page.pdf` | Pre-rendered PDF downloads, regenerated in CI. |
+| `scripts/generate_pdfs.sh` | Renders the PDFs from the live page with headless Chrome. |
+| `.github/workflows/release.yml` | Regenerates the PDFs and tags a GitHub Release when `resume.md`'s version changes. |
 | `.nojekyll` | Disables Jekyll processing so files are served as-is. |
 
 ## Editing the Resume
@@ -46,8 +50,10 @@ Then open <http://localhost:8000>.
 ## Deployment
 
 The site is served by GitHub Pages from the `main` branch. Every push to `main`
-deploys the latest content. When `resume.md`'s version changes, the release
-workflow creates a matching `vX.Y` tag and GitHub Release.
+deploys the latest content. Pushes that affect the rendered resume also trigger
+the release workflow, which regenerates the PDFs with headless Chrome, commits
+them back to `main` if they changed, and — when `resume.md`'s version changes —
+creates a matching `vX.Y` tag and GitHub Release.
 
 ## License
 

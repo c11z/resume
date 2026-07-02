@@ -15,10 +15,10 @@
             <button id="download-md" class="btn btn--secondary btn--sm" title="Download Markdown">
                 <i data-lucide="download" class="icon icon--sm"></i> MD
             </button>
-            <button id="print-full" class="btn btn--secondary btn--sm" title="Print Full Resume">
+            <button id="print-full" class="btn btn--secondary btn--sm" title="Download Full Resume PDF">
                 <i data-lucide="file-stack" class="icon icon--sm"></i> PDF Full
             </button>
-            <button id="print-one-page" class="btn btn--secondary btn--sm" title="Print One Page Resume">
+            <button id="print-one-page" class="btn btn--secondary btn--sm" title="Download One Page Resume PDF">
                 <i data-lucide="file-text" class="icon icon--sm"></i> PDF One Page
             </button>
         </div>
@@ -83,6 +83,18 @@
                         }
                     }
 
+                    // ?variant=one-page truncates the resume at the page-break
+                    // entry — used by scripts/generate_pdfs.sh to pre-render
+                    // the one-page PDF.
+                    const params = new URLSearchParams(location.search);
+                    if (params.get("variant") === "one-page") {
+                        let el = resume.querySelector(".page-break");
+                        while (el) {
+                            el.style.display = "none";
+                            el = el.nextElementSibling;
+                        }
+                    }
+
                     // Header: the paragraph after <h1> is the pronunciation, the
                     // next is the contact line. Tag them and add leading icons.
                     const h1 = resume.querySelector("h1");
@@ -105,46 +117,43 @@
                     lucide.createIcons();
                 });
 
+            function downloadBlob(blob, name) {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = name;
+                a.click();
+                URL.revokeObjectURL(url);
+            }
+
             document
                 .getElementById("download-md")
                 .addEventListener("click", () => {
                     const blob = new Blob([markdownText], {
                         type: "text/markdown",
                     });
-                    const url = URL.createObjectURL(blob);
-                    const a = document.createElement("a");
-                    a.href = url;
-                    a.download = `${fileName()}.md`;
-                    a.click();
-                    URL.revokeObjectURL(url);
+                    downloadBlob(blob, `${fileName()}.md`);
                 });
 
-            // Sets the suggested "Save as PDF" filename via document.title, then
-            // restores it. The browser may still let the user rename in the dialog.
-            function printWithName(name) {
-                const prevTitle = document.title;
-                document.title = name;
-                window.print();
-                document.title = prevTitle;
+            // The PDFs are pre-rendered by scripts/generate_pdfs.sh (run by the
+            // release workflow) so every browser downloads an identical file.
+            // fetch + blob lets us apply the versioned filename on download.
+            function downloadPdf(src, variant) {
+                fetch(src)
+                    .then((res) => {
+                        if (!res.ok) throw new Error(res.status);
+                        return res.blob();
+                    })
+                    .then((blob) => downloadBlob(blob, `${fileName(variant)}.pdf`))
+                    .catch(() => window.open(src, "_blank"));
             }
 
             document.getElementById("print-full").addEventListener("click", () => {
-                printWithName(fileName());
+                downloadPdf("resume.pdf");
             });
 
             document.getElementById("print-one-page").addEventListener("click", () => {
-                const resume = document.getElementById("resume");
-                const pageBreakEl = resume.querySelector(".page-break");
-                if (!pageBreakEl) { window.print(); return; }
-                const hidden = [];
-                let el = pageBreakEl;
-                while (el) {
-                    el.style.display = "none";
-                    hidden.push(el);
-                    el = el.nextElementSibling;
-                }
-                printWithName(fileName("_one_page"));
-                hidden.forEach(h => h.style.display = "");
+                downloadPdf("resume_one_page.pdf", "_one_page");
             });
         </script>
     </body>

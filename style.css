@@ -166,6 +166,13 @@ body {
 }
 
 @media print {
+  /* Paint the content area paper-white to match the unpaintable @page
+     margins — otherwise the screen --bg prints as an off-white rectangle
+     framed by white. */
+  body {
+    background: var(--gray-0);
+  }
+
   .download-bar {
     display: none;
   }

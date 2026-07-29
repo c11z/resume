@@ -1,5 +1,5 @@
 ---
-version: 2.0
+version: 2.1
 ---
 
 # Cory Dominguez
@@ -10,7 +10,9 @@ KOR-ee duh-MING-gez
 
 ## Experience
 
-### Senior Data Engineer, Meta (WhatsApp) — March 2021 to Present
+### Senior Software Engineer (Data Platform), Mapbox — September 2026 to Present
+
+### Senior Data Engineer, Meta (WhatsApp) — March 2021 to August 2026
 
 #### Impersonation Integrity Detection & Prevention
 
@@ -60,9 +62,8 @@ KOR-ee duh-MING-gez
 
 - Top 30% AI Adopter at Meta based on rolling average of Active Days and Daily Sessions across many tools, both industry-standard (Claude Code, Codex) and proprietary (DevMate, Analytics Agent).
 
-### Senior Data Engineer, Vacasa — April 2019 to February 2021
+### Senior Software Engineer (Data Platform), Vacasa — April 2019 to February 2021
 
-- First individual contributor data engineering hire; designed the interview process and built a team of 5 data engineers.
 - Stood up core data infrastructure — Airflow, Presto/Trino, DBT, Redshift, and Looker — supporting dozens of stakeholders across the organization.
 - Reduced annual data infrastructure costs by hundreds of thousands of dollars through usage analysis and negotiated long-term AWS agreements.
 

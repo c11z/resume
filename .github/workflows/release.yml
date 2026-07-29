@@ -9,6 +9,9 @@ on:
       - style.css
       - assets/**
       - scripts/**
+  # Run on demand to exercise the workflow after changes it doesn't watch,
+  # such as edits to this file.
+  workflow_dispatch:
 
 jobs:
   release:

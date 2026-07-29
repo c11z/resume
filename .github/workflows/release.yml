@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Generate PDFs
         run: ./scripts/generate_pdfs.sh
@@ -49,7 +49,7 @@ jobs:
 
       - name: Create release
         if: steps.check.outputs.exists == 'false'
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           name: Resume ${{ steps.version.outputs.tag }}

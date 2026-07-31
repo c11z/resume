@@ -235,12 +235,19 @@ body {
 
   #resume li {
     font-size: 9.5pt;
-    margin-bottom: 1pt;
+    margin-bottom: 0.5pt;
     page-break-inside: avoid;
   }
 
   #resume p {
     font-size: 9.5pt;
     margin-bottom: 2pt;
+  }
+
+  /* Team-context line under a role heading (e.g. the WhatsApp note) —
+     keep it from costing a full text row on letter paper. */
+  #resume h3 + p {
+    font-size: 8.5pt;
+    margin-bottom: 1pt;
   }
 }

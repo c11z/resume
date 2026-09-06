@@ -1,5 +1,5 @@
 ---
-version: 2.2
+version: 2.3
 ---
 
 # Cory Dominguez
@@ -69,14 +69,14 @@ KOR-ee duh-MING-gez
 - Stood up core data infrastructure — Airflow, Presto/Trino, DBT, Redshift, and Looker — supporting dozens of stakeholders across the organization.
 - Reduced annual data infrastructure costs by hundreds of thousands of dollars through usage analysis and negotiated long-term AWS agreements.
 
-### Senior Software Engineer, imgix — March 2018 to December 2018
+### Software Engineer, imgix — March 2018 to December 2018
 
 - Optimized batch processing jobs from 30s to under 1s by introducing a Redis caching layer.
 - Built a HubSpot CRM data ingestion pipeline using GCP Cloud Composer (Airflow) into BigQuery.
 - Designed server log deletion protocols to ensure compliance with ePrivacy Directive requirements.
 - Elected to leave when relocating from San Francisco, CA to Portland, OR.
 
-### Senior Software Engineer, Chartboost — June 2015 to March 2018
+### Software Engineer, Chartboost — June 2015 to March 2018
 
 - Refactored the customer-facing analytics dashboard API in Scala (Play Framework) backed by MySQL, and built last-mile data pipelines from Cloudera Hive.
 - Migrated pipeline orchestration from Jenkins to Airflow across the organization.
